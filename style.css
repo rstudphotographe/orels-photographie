@@ -31,7 +31,8 @@ body {
 .img_logo {
   width: 100%;
   height: 350px;
-  margin: 0 -50px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .title_container {
@@ -80,6 +81,25 @@ body {
   font-size: 18px;
 }
 
+/*****************************Gallerie********************/
+#container_img {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 55px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.img_gallerie {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 550px;
+}
+
 /******************************Page prestation*****************/
 .container_nav {
   display: -webkit-box;
@@ -119,18 +139,6 @@ body {
 .liste_presta {
   font-size: 23px;
   margin-bottom: 50px;
-}
-
-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .insta {

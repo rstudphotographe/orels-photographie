@@ -23,7 +23,7 @@
     .img_logo {
      width: 100%;
      height: 350px;
-     margin: 0 -50px;
+     object-fit: cover;
     }
     
     .title_container {
@@ -65,7 +65,21 @@ display: flex;
      font-size: 18px;
  
     }
-    
+    /*****************************Gallerie********************/
+#container_img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 55px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  
+}
+.img_gallerie {
+     object-fit: cover;
+      width: 100%;
+      height: 550px;
+    }
     
     
     
@@ -92,11 +106,11 @@ display: flex;
       margin-bottom: 50px;
      
     }
-    footer {
-     display: flex;
-     justify-content: right;
-     align-items: center;
-    }
+    // footer {
+    //  //display: flex;
+    //  justify-content: right;
+    //  align-items: center;
+    // }
     
     .insta {
      width: 8%;
