@@ -1,191 +1,212 @@
-*{
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-    
-    }
-    
-    body{
-    font-family: 'Playfair Display', serif;
-    }
-    
-    .pseudo {
-     font-size: 30px;
-    margin-top:25px ;
-    }
-    
-    #head {
-     display: flex;
-    justify-content: space-between;
-     flex-wrap: wrap;
-     align-items: center;
-    }
-    .img_logo {
-     width: 100%;
-     height: 350px;
-     object-fit: cover;
-    }
-    
-    .title_container {
-     font-size: 35px;
-     margin: 0 50px;
-    }
-    
-    .nav_container {
-     margin:0 25px;
-    }
-    
-    .nav {
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-     color: #000;
-    margin-top: 10px;
-    
-    }
-    .img_gallery{
-    border-radius: 25px;
-    box-shadow: 2px 2px 2px 2px rgb(209, 209, 159);
-     width: 50%;
-    }
-    .presentation {
-display: flex;
-    align-items: center;
- margin: 50px;
-    }
-    .picture_me {
-     width: 15%;
-     margin: 0 20px;
-     border-radius: 550px;
-     border: rgb(197, 195, 62) 2px solid;
-    }
-    
-    .about {
-     width: 100%;
-     font-size: 18px;
- 
-    }
-    /*****************************Gallerie********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+a {
+  text-decoration: none;
+}
+.pseudo {
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+#head {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.img_logo {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.title_container {
+  font-size: 35px;
+}
+.title_site {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.container_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -307px 5px;
+}
+
+.container_nav_gall {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 50px;
+}
+.nav_lien {
+  font-size: 20px;
+  color: white;
+}
+.nav_gall {
+  color: #000;
+}
+
+.reseau_socio {
+  height: 45px;
+    width: 50%;
+    margin: 43px 537px;
+}
+/////////////////////////presentation/////////////////
+.img_gallery {
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px 2px rgb(209, 209, 159);
+  width: 50%;
+}
+.presentation {
+  display: flex;
+  align-items: center;
+  margin: 600px 50px;
+}
+
+.container_about {
+  width: 80%;
+  border: rgb(197, 195, 62) solid 1px;
+  text-align: justify;
+  margin: 10px;
+  padding: 32px;
+  border-radius: 50px;
+}
+
+.picture_me {
+  width: 15%;
+  margin: 0 20px;
+  border-radius: 550px;
+  border: rgb(197, 195, 62) 2px solid;
+}
+
+.about {
+  width: 100%;
+  font-size: 18px;
+}
+/*****************************Gallerie********************/
+.title_page {
+  position: absolute;
+  margin: 20% 40% 0%;
+}
+.title_gall {
+  color: #000;
+}
 #container_img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 55px;
+  gap: 25px;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 50px;
-  
+  margin-top: 250px;
 }
 .img_gallerie {
-     object-fit: cover;
-      width: 100%;
-      height: 550px;
-    }
-    
-    
-    
-    /******************************Page prestation*****************/
-    .container_nav {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     margin-top: 10px;
-     margin-bottom: 100px;
-    }
-    .container_presta {
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     flex-direction: column;
-    }
-    .title_presta {
-     font-size: 35px;
-     margin-bottom: 45px;
-    }
-    .liste_presta {
-     font-size: 23px;
-      margin-bottom: 50px;
-     
-    }
-    // footer {
-    //  //display: flex;
-    //  justify-content: right;
-    //  align-items: center;
-    // }
-    
-    .insta {
-     width: 8%;
-     border-radius: 25px ;
-    }
-    .facebk{
-     width: 3%;
-    border-radius: 25px ;
-    }
-    /********************Responsive*************/
-    @media screen and (max-width: 750px){
-    
-    body {background-color: rgb(235, 235, 235);
-    }
-    .title_site {
-     font-size: 20px;
-     margin-top:25px ;
-    }
-    .picture_me {
-     width: 30%;
-    }
-    .container_nav {
-     margin: 30px 65px;
-     display: block;
-    
-    }
-    
-    .title_site {
-     font-size: 25px;
-    }
-    .nav_site{
-     margin: 10px 40px;
-     
-    }
-    .nav{
-     font-size: 20px;
-     
-    }
-    
-    .container_about {
-     border: rgb(197, 195, 62) solid 1px;
-     text-align: justify;
-     margin: 10px;
-    }
-    
-    .about {
-     padding: 5px;
-     text-align: left;
-    }
-    
-    .presentation{
-     display: block;
-    }
-    .insta {
-     width: 12%;
-     border-radius: 25px ;
-    }
-    .facebk{
-     width: 12%;
-     border-radius: 25px ;
-    }
-    
-    /*******************Prestation*****************/
-    .prestation {
-     margin: 30px;
-    }
-    
-    .title_presta {
-     font-size: 20px;
-    }
-    
-    }
-    
-    
-    
-    
-    
-    
+  object-fit: cover;
+  width: 100%;
+  height: 550px;
+}
+
+/******************************Page prestation*****************/
+ .nav_presta {
+margin : 0px 5px
+ }
+ .title_presta,
+ .nav_lien_presta {
+  color: #000;
+ }
+.container_presta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.title_presta {
+  font-size: 35px;
+  margin-bottom: 45px;
+}
+.liste_presta {
+  font-size: 23px;
+  margin-bottom: 50px;
+}
+
+.insta {
+  width: 8%;
+  border-radius: 25px;
+  font-size: 40px;
+  color: chocolate;
+}
+.facebk {
+  width: 3%;
+  border-radius: 25px;
+  font-size: 40px;
+  color: rgb(80, 169, 246);
+}
+/********************Responsive*************/
+@media screen and (max-width: 750px) {
+  body {
+    background-color: rgb(235, 235, 235);
+  }
+  .title_site {
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  .picture_me {
+    width: 30%;
+  }
+  .container_nav {
+    margin: 30px 65px;
+    display: block;
+  }
+
+  .title_site {
+    font-size: 25px;
+  }
+  .nav_site {
+    margin: 10px 40px;
+  }
+  .nav {
+    font-size: 20px;
+  }
+
+  .container_about {
+    border: rgb(197, 195, 62) solid 1px;
+    text-align: justify;
+    margin: 10px;
+  }
+
+  .about {
+    padding: 5px;
+    text-align: left;
+  }
+
+  .presentation {
+    display: block;
+  }
+  .insta {
+    width: 12%;
+    border-radius: 25px;
+  }
+  .facebk {
+    width: 12%;
+    border-radius: 25px;
+  }
+
+  /*******************Prestation*****************/
+  .prestation {
+    margin: 30px;
+  }
+
+  .title_presta {
+    font-size: 20px;
+  }
+}
