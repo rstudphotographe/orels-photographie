@@ -27,6 +27,8 @@ a {
 
 .activity {
   color: white;
+  margin: 0 110px;
+  font-size: 20px;
 }
 
 .container_nav_bar {
@@ -109,9 +111,13 @@ a {
   margin: 50px 30%;
 }
 
+.title_formule {
+  margin: 0 50%;
+}
+
 .prestation {
   width: 100%;
-  margin: 550px 0px;
+  margin: 150px 0px;
 }
 
 .goyave {
@@ -140,26 +146,38 @@ li {
   margin-bottom: 50px;
 }
 
-footer {
+.other {
+  margin: 0 30%;
+}
+
+.container_precision {
+  margin: 60px 320px 0px 335px;
+  border: 1px green solid;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/**********************FOOTER****************************/
+.reseau_socio {
+  margin: 25px 40%;
   display: flex;
-  justify-content: right;
-  align-items: center;
+  justify-content: space-around;
 }
 
 .insta {
-  width: 8%;
-  border-radius: 25px;
+  font-size: 45px;
+  color: #9d49aa;
 }
 
 .facebk {
-  width: 3%;
-  border-radius: 25px;
+  font-size: 45px;
+  color: #4a47bc;
 }
 
 /*****************************Gallerie********************/
 .title_page {
   position: absolute;
-  margin: 0% 47% 0%;
+  margin: 8% 45% 0%;
   border: 8px solid rgb(241, 180, 27);
   border-style: groove;
   border-radius: 25px;
@@ -200,10 +218,9 @@ footer {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-  height: 560px;
-  border-radius: 25px;
-  border-radius: 20px;
-  border: 1px solid #0cb2c0;
+  height: 640px;
+  border-radius: 5px;
+  border: 2px solid rgb(206, 173, 65);
 }
 
 /******************************************************************/
