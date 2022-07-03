@@ -33,8 +33,7 @@ a {
 .container_nav_bar {
   display: flex;
   margin: -3% 85%;
-  justify-content: space-between;
-  width: 11%;
+  justify-content: space-around;
 }
 
 #head {
@@ -93,6 +92,11 @@ a {
 /******************************Page prestation*****************/
 .nav_bar {
   color: rgb(255, 255, 255);
+  font-size: 25px;
+  border: 8px solid rgb(206, 173, 65);
+  border-style: outset;
+  border-radius: 25px;
+  padding: 5px;
 }
 
 .container_presta {
@@ -178,14 +182,18 @@ footer {
 .nav_gall {
   color: #000;
   font-size: 25px;
+  border: 8px solid rgb(206, 173, 65);
+  border-style: outset;
+  border-radius: 25px;
+  padding: 5px;
 }
 
 #container_img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
   margin-top: 250px;
 }
 
