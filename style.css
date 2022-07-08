@@ -5,13 +5,14 @@
 }
 
 body {
-  font-family: "Playfair Display", serif;
+  background-color: #e8e6d9;
 }
 
 a {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 .pseudo {
   font-size: 30px;
   margin-top: 25px;
@@ -27,20 +28,28 @@ a {
 .img_logo {
   width: 100%;
   height: 350px;
+=======
+.img_head {
+>>>>>>> 3306ed36d7b1a99c7aea26016b0ea0614e57a78f
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.title_container {
-  font-size: 35px;
+  width: 100%;
+  height: 170px;
 }
 
 .title_site {
+  font-size: 55px;
+  margin: -130px 5px 10px 110px;
   color: white;
-  text-decoration: none;
-  font-size: 30px;
 }
 
+.activity {
+  color: white;
+  margin: 0 110px;
+  font-size: 20px;
+}
+
+<<<<<<< HEAD
 .container_nav {
   display: flex;
   justify-content: space-between;
@@ -53,21 +62,38 @@ a {
   justify-content: space-between;
   align-items: center;
   margin: 30px 50px;
+=======
+.container_nav_bar {
+  display: flex;
+  margin: -3% 85%;
+  justify-content: space-around;
 }
 
-.nav_lien {
+#head {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+>>>>>>> 3306ed36d7b1a99c7aea26016b0ea0614e57a78f
+}
+
+.img_logo {
+  width: 100%;
+  height: 350px;
+  margin: 0 -50px;
+}
+
+.title_container {
+  font-size: 35px;
+  margin: 0 50px;
+}
+
+.nav {
   font-size: 20px;
-  color: white;
-}
-
-.nav_gall {
+  font-weight: bold;
+  text-decoration: none;
   color: #000;
-}
-
-.reseau_socio {
-  height: 45px;
-  width: 50%;
-  margin: 43px 537px;
+  margin-top: 10px;
 }
 
 .img_gallery {
@@ -79,6 +105,7 @@ a {
 .presentation {
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   margin: 600px 50px;
 }
 
@@ -89,6 +116,11 @@ a {
   margin: 10px;
   padding: 32px;
   border-radius: 50px;
+=======
+  margin: 650px 50px;
+  border: rgb(255, 187, 2) 3px solid;
+  border-radius: 15px;
+>>>>>>> 3306ed36d7b1a99c7aea26016b0ea0614e57a78f
 }
 
 .picture_me {
@@ -101,8 +133,10 @@ a {
 .about {
   width: 100%;
   font-size: 18px;
+  color: black;
 }
 
+<<<<<<< HEAD
 /*****************************Gallerie********************/
 .img_gall_head {
   width: 100%;
@@ -116,12 +150,30 @@ a {
   margin: 20% 40% 0%;
   border: 2px solid rgb(228, 203, 111);
   border-radius: 15px;
+=======
+/******************************Page prestation*****************/
+.nav_bar {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  border: 8px solid rgb(206, 173, 65);
+  border-style: outset;
+  border-radius: 25px;
+  padding: 5px;
+>>>>>>> 3306ed36d7b1a99c7aea26016b0ea0614e57a78f
 }
 
-.title_gall {
-  color: #000;
+.container_presta {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid rgb(124, 159, 159);
+  border-radius: 10px;
+  box-shadow: 7px 7px rgb(223, 223, 223);
+  padding: 25px;
+  margin: 50px 30%;
 }
 
+<<<<<<< HEAD
 #container_img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -138,18 +190,26 @@ a {
   border: 2px solid rgb(228, 203, 111);
   width: 100%;
   height: 100%;
+=======
+.title_formule {
+  margin: 0 50%;
 }
 
-/******************************Page prestation*****************/
-.nav_presta {
-  margin: 0px 5px;
+.prestation {
+  width: 100%;
+  margin: 150px 0px;
+>>>>>>> 3306ed36d7b1a99c7aea26016b0ea0614e57a78f
 }
 
-.title_presta,
-.nav_lien_presta {
-  color: #000;
+.goyave {
+  background-color: #f0b9d9;
 }
 
+.mangue {
+  background-color: #fad141;
+}
+
+<<<<<<< HEAD
 li {
   list-style: none;
 }
@@ -159,6 +219,14 @@ li {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+=======
+.orange {
+  background-color: #0cb2c0;
+}
+
+li {
+  list-style: none;
+>>>>>>> 3306ed36d7b1a99c7aea26016b0ea0614e57a78f
 }
 
 .title_presta {
@@ -171,21 +239,93 @@ li {
   margin-bottom: 50px;
 }
 
+.other {
+  margin: 0 30%;
+}
+
+.container_precision {
+  margin: 60px 320px 0px 335px;
+  border: 1px green solid;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/**********************FOOTER****************************/
+.reseau_socio {
+  margin: 25px 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
 .insta {
-  width: 8%;
-  border-radius: 25px;
-  font-size: 40px;
-  color: chocolate;
+  font-size: 45px;
+  color: #9d49aa;
 }
 
 .facebk {
-  width: 3%;
+  font-size: 45px;
+  color: #4a47bc;
+}
+
+/*****************************Gallerie********************/
+.title_page {
+  position: absolute;
+  margin: 8% 45% 0%;
+  border: 8px solid rgb(241, 180, 27);
+  border-style: groove;
   border-radius: 25px;
+<<<<<<< HEAD
   font-size: 40px;
   color: rgb(80, 169, 246);
 }
 
 /****************************************Responsive*************/
+=======
+  padding: 5px;
+}
+
+.title_gall {
+  color: #000;
+  margin: 0;
+}
+
+.container_nav_gall {
+  height: 50px;
+  margin: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_gall {
+  color: #000;
+  font-size: 25px;
+  border: 8px solid rgb(206, 173, 65);
+  border-style: outset;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+#container_img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 250px;
+}
+
+.img_gallerie {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 640px;
+  border-radius: 5px;
+  border: 2px solid rgb(206, 173, 65);
+}
+
+/******************************************************************/
+/********************Responsive*************/
+>>>>>>> 3306ed36d7b1a99c7aea26016b0ea0614e57a78f
 @media screen and (max-width: 750px) {
   body {
     background-color: rgb(235, 235, 235);
