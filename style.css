@@ -274,7 +274,7 @@ li {
 }
 
 /****************************************Responsive*************/
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 450px) {
   body {
     background-color: rgb(235, 235, 235);
   }
@@ -285,18 +285,63 @@ li {
   .picture_me {
     width: 30%;
   }
+  .img_head {
+    margin: -15px 0;
+    height: 180px;
+    border-radius: 0;
+  }
   .container_nav {
-    margin: 30px 65px;
+    width: 100%;
     display: block;
+    margin: 0;
+  }
+  .activity {
+    color: #000;
+    font-size: 15px;
+    margin: -13px 19%;
   }
   .title_site {
-    font-size: 25px;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #000;
+    margin: 15px 140px;
   }
-  .nav_site {
-    margin: 10px 40px;
-  }
-  .nav {
+  .nav_bar {
     font-size: 20px;
+    color: #000;
+  }
+  .container_nav_bar {
+    margin: 50px 20%;
+  }
+  .pic-ctn {
+    position: relative;
+    width: 80vw;
+    height: 50px;
+    margin-top: 15vh;
+  }
+  .pic-ctn > img {
+    width: 100%;
+    height: 450px;
+  }
+  .pic1 {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .pic2 {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .pic3 {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .pic4 {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .pic5 {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .container_about {
     border: rgb(197, 195, 62) solid 1px;
@@ -325,7 +370,41 @@ li {
   .title_presta {
     font-size: 20px;
   }
+  .container_presta {
+    width: 80%;
+    margin: 25px 5px;
+  }
+  .container_precision {
+    margin: 0px;
+    width: 85%;
+  }
+  .other {
+    margin: 41px 49px;
+  }
+  #body_presta {
+    background-color: white;
+  }
+  /*********************************Gallerie*********************/
+  .nav_site_gall {
+    display: block;
+    margin: 50px 60px;
+  }
+  #container_img {
+    display: block;
+    margin-top: 210px;
+  }
+  .img_gallerie {
+    height: 440px;
+  }
+  .img_gall_head {
+    height: 150px;
+    border-radius: 0;
+  }
+  .title_page {
+    display: none;
+  }
 }
+/***********************************FIN RESPONSIVE*************************************/
 /******************************carrousel******************/
 .pic1 {
   width: 60%;
@@ -360,11 +439,6 @@ li {
   height: 550px;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.pic-ctn {
-  width: 75vw;
-  height: 200px;
 }
 
 @-webkit-keyframes display {
@@ -414,6 +488,7 @@ li {
 }
 .pic-ctn {
   position: relative;
+  width: 75vw;
   height: 300px;
   margin-top: 15vh;
 }
