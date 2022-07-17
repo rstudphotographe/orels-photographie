@@ -300,6 +300,13 @@ li {
      object-fit: cover;
 }
 
+.pic4 {
+  width: 80%;
+  height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @-webkit-keyframes display {
   0% {
     transform: translateX(200px);
@@ -373,6 +380,11 @@ img:nth-child(3) {
           animation-delay: 4s;
 }
 
+img:nth-child(4) {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
 /****************************************Responsive*************/
 @media screen and (max-width: 770px) {
   body {
@@ -436,6 +448,10 @@ img:nth-child(3) {
        object-fit: cover;
   }
   .pic3 {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .pic4 {
     -o-object-fit: cover;
        object-fit: cover;
   }
