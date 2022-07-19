@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Lobster", cursive;
-}
-
 a {
   text-decoration: none;
 }
@@ -27,13 +23,13 @@ a {
 .activity {
   position: absolute;
   color: rgb(10, 10, 10);
-  margin: -188px 20%;
+  margin: -135px 20%;
   font-size: 20px;
 }
 
 .container_nav_bar {
   display: flex;
-  margin: -220px 65%;
+  margin: -145px 85%;
   justify-content: space-around;
 }
 
@@ -72,9 +68,9 @@ a {
 .presentation {
   display: flex;
   align-items: center;
-  margin: 330px 50px;
-  border: rgb(255, 187, 2) 3px solid;
-  border-radius: 15px;
+  margin: 150px 50px;
+  box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+  border-radius: 20px;
 }
 
 .picture_me {
@@ -160,7 +156,6 @@ a {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-  height: 640px;
   border-radius: 5px;
   border: 2px solid rgb(206, 173, 65);
 }
@@ -197,9 +192,9 @@ li {
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: 2px solid rgb(124, 159, 159);
-  border-radius: 10px;
-  box-shadow: 7px 7px rgba(192, 169, 195, 0.2784313725);
+  border: 2px solid rgb(167, 163, 84);
+  box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+  border-radius: 20px;
   padding: 25px;
   margin: 50px 30%;
 }
@@ -212,18 +207,6 @@ li {
 .prestation {
   width: 100%;
   margin: 400px 0px;
-}
-
-.goyave {
-  background-color: #f0b9d9;
-}
-
-.mangue {
-  background-color: #fdde70;
-}
-
-.orange {
-  background-color: #b3efac;
 }
 
 li {
@@ -261,7 +244,7 @@ li {
 }
 
 .socio_index {
-  margin: -230px 40% 20px;
+  margin: 0px 40% 20px;
 }
 
 .mail {
@@ -279,112 +262,148 @@ li {
 }
 
 /******************************carrousel******************/
-.pic1 {
-  width: 80%;
-  height: 550px;
-  -o-object-fit: cover;
-     object-fit: cover;
+.carousel-wrapper {
+  width: 520px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+  border-radius: 20px;
+  margin: 250px auto 20px;
 }
 
-.pic2 {
-  width: 80%;
-  height: 550px;
-  -o-object-fit: cover;
-     object-fit: cover;
+.carousel-container {
+  width: 400px;
+  height: 250px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
-.pic3 {
-  width: 80%;
-  height: 550px;
-  -o-object-fit: cover;
-     object-fit: cover;
+.carousel {
+  display: flex;
+  width: 1200px;
+  -webkit-animation: sliding 12s infinite;
+          animation: sliding 12s infinite;
+}
+.carousel div {
+  width: 400px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.carousel:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.carousel .image-one {
+  background-image: url("images/IMG_0485.jpg");
+}
+.carousel .image-two {
+  background-image: url("images/gabi_noir_et_blanc.jpg");
+}
+.carousel .image-three {
+  background-image: url("images/marie_noir_et_blanc.jpg");
 }
 
-.pic4 {
-  width: 80%;
-  height: 550px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-@-webkit-keyframes display {
-  0% {
-    transform: translateX(200px);
-    opacity: 0;
-  }
-  10% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-  20% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+@-webkit-keyframes sliding {
   30% {
-    transform: translateX(-200px);
-    opacity: 0;
+    transform: translateX(0);
+  }
+  35% {
+    transform: translateX(-400px);
+  }
+  65% {
+    transform: translateX(-400px);
+  }
+  70% {
+    transform: translateX(-800px);
+  }
+  98% {
+    transform: translateX(-800px);
   }
   100% {
-    transform: translateX(-200px);
-    opacity: 0;
+    transform: translateX(0);
   }
 }
 
-@keyframes display {
-  0% {
-    transform: translateX(200px);
-    opacity: 0;
-  }
-  10% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-  20% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+@keyframes sliding {
   30% {
-    transform: translateX(-200px);
-    opacity: 0;
+    transform: translateX(0);
+  }
+  35% {
+    transform: translateX(-400px);
+  }
+  65% {
+    transform: translateX(-400px);
+  }
+  70% {
+    transform: translateX(-800px);
+  }
+  98% {
+    transform: translateX(-800px);
   }
   100% {
-    transform: translateX(-200px);
-    opacity: 0;
+    transform: translateX(0);
   }
 }
-.pic-ctn {
-  position: relative;
-  width: 75vw;
-  height: 300px;
-  margin-top: 70vh;
+@media screen and (max-width: 768px) {
+  .carousel-wrapper {
+    width: 312px;
+    height: 210px;
+  }
+  .carousel-container {
+    width: 240px;
+    height: 150px;
+  }
+  .carousel {
+    width: 720px;
+  }
+  .carousel > div {
+    width: 240px;
+    height: 150px;
+  }
+  @-webkit-keyframes sliding {
+    30% {
+      transform: translateX(0);
+    }
+    35% {
+      transform: translateX(-240px);
+    }
+    65% {
+      transform: translateX(-240px);
+    }
+    70% {
+      transform: translateX(-480px);
+    }
+    98% {
+      transform: translateX(-480px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes sliding {
+    30% {
+      transform: translateX(0);
+    }
+    35% {
+      transform: translateX(-240px);
+    }
+    65% {
+      transform: translateX(-240px);
+    }
+    70% {
+      transform: translateX(-480px);
+    }
+    98% {
+      transform: translateX(-480px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 }
-
-.pic-ctn > img {
-  border-radius: 15px;
-  border: 2px solid rgb(236, 202, 123);
-  position: absolute;
-  top: 0;
-  left: calc(50% - 350px);
-  opacity: 0;
-  -webkit-animation: display 10s infinite;
-          animation: display 10s infinite;
-}
-
-img:nth-child(2) {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-}
-
-img:nth-child(3) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-}
-
-img:nth-child(4) {
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
-}
-
 /****************************************Responsive*************/
 @media screen and (max-width: 770px) {
   body {
@@ -427,33 +446,6 @@ img:nth-child(4) {
   }
   .container_nav_bar {
     margin: -45px 0;
-  }
-  .pic-ctn {
-    position: relative;
-    width: 122vw;
-    height: 50px;
-    margin-top: 30%;
-  }
-  .pic-ctn > img {
-    width: 79%;
-    height: 350px;
-    left: calc(78% - 350px);
-  }
-  .pic1 {
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .pic2 {
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .pic3 {
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .pic4 {
-    -o-object-fit: cover;
-       object-fit: cover;
   }
   .container_about {
     text-align: justify;
