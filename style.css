@@ -365,35 +365,37 @@ li {
 }
 @media screen and (max-width: 768px) {
   .carousel-wrapper {
-    width: 312px;
-    height: 210px;
+    width: 385px;
+    height: 322px;
+    margin: 150px auto 20px;
   }
   .carousel-container {
-    width: 240px;
-    height: 150px;
+    width: 350px;
+    height: 230px;
+    border-radius: inherit;
   }
   .carousel {
-    width: 720px;
+    width: 1050px;
   }
   .carousel > div {
-    width: 240px;
-    height: 150px;
+    width: 350px;
+    height: 230px;
   }
   @-webkit-keyframes sliding {
     30% {
       transform: translateX(0);
     }
     35% {
-      transform: translateX(-240px);
+      transform: translateX(-350px);
     }
     65% {
-      transform: translateX(-240px);
+      transform: translateX(-350px);
     }
     70% {
-      transform: translateX(-480px);
+      transform: translateX(-700px);
     }
     98% {
-      transform: translateX(-480px);
+      transform: translateX(-700px);
     }
     100% {
       transform: translateX(0);
@@ -404,16 +406,16 @@ li {
       transform: translateX(0);
     }
     35% {
-      transform: translateX(-240px);
+      transform: translateX(-350px);
     }
     65% {
-      transform: translateX(-240px);
+      transform: translateX(-350px);
     }
     70% {
-      transform: translateX(-480px);
+      transform: translateX(-700px);
     }
     98% {
-      transform: translateX(-480px);
+      transform: translateX(-700px);
     }
     100% {
       transform: translateX(0);
@@ -433,9 +435,8 @@ li {
     width: 30%;
   }
   .img_head {
-    margin: 15px 0px;
+    margin: 10px 130px;
     border-radius: 0;
-    width: 100%;
   }
   .container_nav {
     width: 100%;
@@ -445,7 +446,7 @@ li {
   .activity {
     color: #000;
     font-size: 15px;
-    margin: -95px 19%;
+    margin: -10px 10%;
   }
   .title_site {
     font-size: 40px;
@@ -458,10 +459,16 @@ li {
     color: #000;
   }
   .nav_site {
-    margin: 0 50px;
+    margin: 65px 50px;
   }
   .container_nav_bar {
-    margin: -45px 0;
+    margin: -47px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .me {
+    font-size: 18px;
+    font-weight: lighter;
   }
   .container_about {
     text-align: justify;
