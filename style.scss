@@ -86,6 +86,7 @@ a {
   box-shadow: 15px 8px 0px 4px rgb(46 61 73 / 20%);
   border-radius: 20px;
   border: 1px solid darkgrey;
+  background-color: darkturquoise;
 }
 .picture_me {
   width: 20%;
@@ -257,15 +258,15 @@ li {
 
 .reseau_socio {
   margin: 25px 40%;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
+  
 }
 .socio_index {
   margin: 0px 40% 20px;
 }
 .mail {
   color: #000;
+  margin: -25px 80px 1px;
+    position: absolute;
 }
 .insta {
   font-size: 45px;
@@ -451,6 +452,12 @@ $size-height: 480px;
     display: block;
     background-color: rgb(255, 255, 255);
   }
+  .reseau_socio{
+    margin: 40px 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
   .insta {
     width: 12%;
     border-radius: 25px;
@@ -466,7 +473,7 @@ $size-height: 480px;
   }
   .title_formule {
     position: absolute;
-    margin: -55px 15%;
+    margin: -55px 30%;
     font-size: 25px;
   }
   .title_presta {
@@ -487,6 +494,9 @@ $size-height: 480px;
     background-color: white;
   }
   /*********************************Gallerie*********************/
+  .container_nav_bar{
+    margin: -15px 0;
+  }
   .motivation {
     margin: 145px 25px;
 }
