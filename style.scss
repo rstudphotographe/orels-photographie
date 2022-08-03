@@ -12,34 +12,35 @@ background: linear-gradient(0deg, rgb(105, 187, 234) 7%, rgb(186, 245, 246) 64%)
 a {
   text-decoration: none;
 }
-
+.bg_head{
+  height: 210px;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
 .img_head {
   font-family: "Lobster", cursive;
   font-size: 55px;
   font-style: italic;
-  color: #763f31;
+  color: whitesmoke;
   margin: 10px 40px;
-  //background: rgb(2,0,36);
-  //color: linear-gradient(288deg, rgba(2,0,36,1) 0%, rgba(210,214,54,1) 42%, rgba(0,212,255,1) 100%);
 }
-// .container_nav{
-//   box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
-//   border-radius: 20px;
-// }
+
 .title_site {
   font-size: 55px;
   margin: -130px 5px 10px 110px;
   color: white;
 }
 .activity {
-  color: rgb(10, 10, 10);
+  color: rgb(255, 255, 255);
   margin: 90px -165px 0;
   font-size: 20px;
   font-family: "Lobster", cursive;
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .container_nav {
+  margin-top: -212px;
   display: flex;
   align-items: center;
 }
@@ -74,6 +75,8 @@ a {
   color: #000;
   margin-top: 10px;
 }
+
+
 .img_gallery {
   border-radius: 25px;
   box-shadow: 2px 2px 2px 2px rgb(209, 209, 159);
@@ -195,7 +198,7 @@ li {
   background-color: #ffffffb0;
 }
 .nav_bar {
-  color: rgb(4, 4, 4);
+  color: white;
   font-size: 25px;
   border: 3px solid rgb(206, 173, 65);
   border-style: outset;

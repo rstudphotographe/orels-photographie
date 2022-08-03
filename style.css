@@ -14,11 +14,19 @@ a {
   text-decoration: none;
 }
 
+.bg_head {
+  height: 210px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 0;
+}
+
 .img_head {
   font-family: "Lobster", cursive;
   font-size: 55px;
   font-style: italic;
-  color: #763f31;
+  color: whitesmoke;
   margin: 10px 40px;
 }
 
@@ -29,7 +37,7 @@ a {
 }
 
 .activity {
-  color: rgb(10, 10, 10);
+  color: rgb(255, 255, 255);
   margin: 90px -165px 0;
   font-size: 20px;
   font-family: "Lobster", cursive;
@@ -37,6 +45,7 @@ a {
 }
 
 .container_nav {
+  margin-top: -212px;
   display: flex;
   align-items: center;
 }
@@ -128,13 +137,13 @@ a {
 
 .activity_gall {
   position: absolute;
-  margin: 190px 300px 0;
+  margin: 395px 300px 0;
   color: #000;
   font-size: 28px;
 }
 
 .motivation {
-  margin: 145px 140px;
+  margin: 250px 140px;
 }
 
 .img_gallerie {
@@ -209,7 +218,7 @@ li {
 }
 
 .nav_bar {
-  color: rgb(4, 4, 4);
+  color: white;
   font-size: 25px;
   border: 3px solid rgb(206, 173, 65);
   border-style: outset;
