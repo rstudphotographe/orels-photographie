@@ -5,11 +5,6 @@
   font-family: "Lobster", cursive;
 }
 
-body {
-  background: rgb(55, 107, 138);
-  background: linear-gradient(0deg, rgb(105, 187, 234) 7%, rgb(186, 245, 246) 64%);
-}
-
 a {
   text-decoration: none;
 }
@@ -104,8 +99,8 @@ a {
 
 .picture_me {
   width: 20%;
-  margin: 0 20px;
-  border-radius: 30px;
+  margin: 20px 20px;
+  border-radius: 10px;
 }
 
 .about {
@@ -137,13 +132,13 @@ a {
 
 .activity_gall {
   position: absolute;
-  margin: 395px 300px 0;
-  color: #000;
-  font-size: 28px;
+  margin: 130px 40px 0;
+  color: white;
+  font-size: 20px;
 }
 
 .motivation {
-  margin: 250px 140px;
+  margin: 145px 140px;
 }
 
 .img_gallerie {
@@ -240,12 +235,12 @@ li {
 
 .title_formule {
   position: absolute;
-  margin: -74px 43%;
+  margin: -240px 43%;
 }
 
 .prestation {
   width: 100%;
-  margin: 400px 0px;
+  margin: 360px 0px;
 }
 
 li {
@@ -450,6 +445,9 @@ li {
   body {
     background-color: rgb(235, 235, 235);
   }
+  .bg_head {
+    width: 107%;
+  }
   .title_site {
     font-size: 20px;
     margin-top: 25px;
@@ -458,8 +456,9 @@ li {
     width: 30%;
   }
   .img_head {
-    margin: 10px 130px;
+    margin: 10px 110px;
     border-radius: 0;
+    color: #000;
   }
   .container_nav {
     width: 100%;
@@ -469,7 +468,13 @@ li {
   .activity {
     color: #000;
     font-size: 15px;
-    margin: -10px 10%;
+    margin: -11px 35px;
+  }
+  .activity_gall {
+    margin: -11px 95px;
+  }
+  .activity_presta {
+    margin: -11px 87px;
   }
   .title_site {
     font-size: 40px;
@@ -504,20 +509,22 @@ li {
   .presentation {
     display: block;
     background-color: rgb(255, 255, 255);
+    margin: 0;
   }
   .reseau_socio {
-    margin: 40px 30%;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+    margin: 85px 30px;
   }
   .insta {
-    width: 12%;
+    margin: 25px 79px;
     border-radius: 25px;
   }
   .facebk {
-    width: 12%;
+    margin: 0 -45px;
     border-radius: 25px;
+  }
+  .mail {
+    position: absolute;
+    margin: -25px 85px;
   }
   /************************************Prestation*****************/
   .prestation {
@@ -569,11 +576,6 @@ li {
   }
   .title_page {
     display: none;
-  }
-  .mail {
-    color: #000;
-    position: absolute;
-    margin: 70px;
   }
 }
 /***********************************FIN RESPONSIVE*************************************//*# sourceMappingURL=style.css.map */
