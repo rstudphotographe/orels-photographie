@@ -34,7 +34,7 @@ a {
 .activity {
   color: rgb(255, 255, 255);
   margin: 90px -165px 0;
-  font-size: 20px;
+  font-size: 21px;
   font-family: "Lobster", cursive;
   font-weight: normal;
 }
@@ -91,10 +91,10 @@ a {
   display: flex;
   align-items: center;
   margin: 150px 50px;
-  box-shadow: 15px 8px 0px 4px rgba(46, 61, 73, 0.2);
-  border-radius: 20px;
+  box-shadow: 7px 7px 0px 0px rgba(46, 61, 73, 0.2);
+  border-radius: 10px;
   border: 1px solid darkgrey;
-  background-color: darkturquoise;
+  background-color: rgb(254, 255, 255);
 }
 
 .picture_me {
@@ -184,14 +184,6 @@ a {
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 250px;
-}
-
-.img_gallerie {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  border-radius: 5px;
-  border: 2px solid rgb(206, 173, 65);
 }
 
 /******************************Page prestation*****************/
