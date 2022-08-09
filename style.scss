@@ -134,7 +134,7 @@ a {
   border-radius: 7px;
   border: 2px solid rgb(228, 203, 111);
   width: 100%;
-  height: 100%;
+  height: 335px;
 }
 
 .title_page {
@@ -217,15 +217,7 @@ li {
   width: 100%;
   margin: 360px 0px;
 }
-// .goyave {
-//   background-color: #f0b9d9;
-// }
-// .mangue {
-//   background-color: #fdde70;
-// }
-// .orange {
-//   background-color: #b3efac;
-// }
+
 li {
   list-style: none;
 }
@@ -261,6 +253,9 @@ li {
   color: #000;
   margin: -25px 80px 1px;
     position: absolute;
+}
+.fa-brands{
+  display: contents;
 }
 .insta {
   font-size: 45px;
