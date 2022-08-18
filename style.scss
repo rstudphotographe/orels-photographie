@@ -2,15 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lobster", cursive;
+  //font-family: "Lobster", cursive;
   
+}
+body {
+  background-color: #000;
 }
 
 a {
   text-decoration: none;
 }
 .bg_head{
-  height: 210px;
+  height: 750px;
     width: 100%;
     object-fit: cover;
     z-index: 0;
@@ -20,7 +23,9 @@ a {
   font-size: 55px;
   font-style: italic;
   color: whitesmoke;
-  margin: 10px 40px;
+  position: absolute;
+  margin: -495px 206px;
+  text-shadow: 0px 0px 17px #dbac28;
 }
 
 .title_site {
@@ -30,8 +35,8 @@ a {
 }
 .activity {
   color: rgb(255, 255, 255);
-  margin: 90px -165px 0;
-  font-size: 21px;
+  margin: -780px 285px 0;
+  font-size: 30px;
   font-family: "Lobster", cursive;
   font-weight: normal;
 }
@@ -52,6 +57,11 @@ a {
   flex-wrap: wrap;
   align-items: center;
 }
+.country{
+margin: 210px 33%;
+font-weight: 100;
+color: white;
+}
 .img_logo {
   width: 100%;
   height: 350px;
@@ -63,7 +73,8 @@ a {
   margin: 0 50px;
 }
 .nav_site {
-  margin-left: 48%;
+  position: absolute;
+  margin:0 55% -30%;
 }
 .nav {
   font-size: 20px;
@@ -99,10 +110,10 @@ a {
   font-size: 18px;
 }
 
-.container_about{
-  font-family: "Lobster", cursive;
+// .container_about{
+//   font-family: "Lobster", cursive;
 
-}
+// }
 
 .me{
   font-size: 19px;
@@ -115,19 +126,22 @@ a {
   object-fit: cover;
   border-radius: 0 0 30px 30px;
 }
-
+.img_head_gall{
+  margin: -440px 150px;;
+}
 .title_gall {
   color: #000;
 }
 
 .activity_gall {
   position: absolute;
-  margin: 130px 40px 0;;
+  margin: 750px 140px 0;;
   color: white;
-  font-size: 20px;
+  font-size: x-large;
 }
 .motivation{
-  margin: 145px 140px;
+  margin: 455px 140px;
+  color: white;
 }
 .img_gallerie {
   object-fit: cover;
@@ -159,7 +173,7 @@ a {
 }
 
 .nav_gall {
-  margin-left: 55%;
+  margin-left: 69%;
 }
 #container_img {
   display: grid;
@@ -172,6 +186,13 @@ a {
 
 
 /******************************Page prestation*****************/
+.bg_head_presta{
+  height: 450px;
+  object-fit: cover;
+}
+.img_head_presta{
+  margin: -165px 200px;
+}
 .nav_presta {
   margin: 0px 5px;
 }
@@ -181,12 +202,22 @@ a {
   color: #000;
 }
 
+.activity_presta{
+  margin: 400px 200px;
+  position: absolute;
+}
+
+.nav_presta {
+  position: absolute;
+  margin:0 70% -27%;;
+}
 li {
   list-style: none;
+  color: white;
 }
 
 #body_presta {
-  background-color: #ffffffb0;
+  background-color: black;
 }
 .nav_bar {
   color: white;
@@ -211,7 +242,9 @@ li {
 }
 .title_formule {
   position: absolute;
-  margin: -240px 43%;
+  margin: -70px 45%;
+  color: white;
+
 }
 .prestation {
   width: 100%;
@@ -224,6 +257,7 @@ li {
 .title_presta {
   font-size: 35px;
   margin-bottom: 45px;
+  color: white;
 }
 .liste_presta {
   font-size: 23px;
@@ -231,6 +265,7 @@ li {
 }
 .other {
   margin: 0 30%;
+  color: white;
 }
 
 .container_precision {
@@ -241,7 +276,14 @@ li {
   background-color: whitesmoke;
 }
 /**********************FOOTER****************************/
+.copyr{
+  color: white;
+  font-size: 15px;
+}
 
+.contact {
+  color: white;
+}
 .reseau_socio {
   margin: 25px 40%;
   
@@ -250,7 +292,7 @@ li {
   margin: 0px 40% 20px;
 }
 .mail {
-  color: #000;
+  color: rgb(255, 255, 255);
   margin: -25px 80px 1px;
     position: absolute;
 }
@@ -275,15 +317,12 @@ $size-height: 480px;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 5px 5px 25px 0px rgba(225 221 197 / 43%);
-  border-radius: 20px;
   margin: 200px auto 20px;
-  background-color: cadetblue;
 }
 
 .carousel-container {
   width: $size-width;
-  height: $size-height;
+  height:680px;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -303,12 +342,17 @@ $size-height: 480px;
   }
   .image-one {
     background-image: url("images/IMG_0485.jpg");
+    height: 720px;
+
   }
   .image-two {
     background-image: url("images/gabi_noir_et_blanc.jpg");
+    height: 720px;
   }
   .image-three {
     background-image: url("images/marie_noir_et_blanc.jpg");
+    height: 720px;
+
   }
 }
 
@@ -332,6 +376,71 @@ $size-height: 480px;
     transform: translateX(0);
   }
 }
+/*****************************Formulaire********************************/
+form {
+  /* Uniquement centrer le formulaire sur la page */
+  margin: 250px auto;
+  width: 400px;
+  /* Encadré pour voir les limites du formulaire */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color: antiquewhite;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  /* Pour s'assurer que tous les champs texte ont la même police.
+     Par défaut, les textarea ont une police monospace */
+  font: 1em sans-serif;
+
+  /* Pour que tous les champs texte aient la même dimension */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Pour harmoniser le look & feel des bordures des champs texte */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* Pour souligner légèrement les éléments actifs */
+  border-color: #000;
+}
+
+textarea {
+  /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+  vertical-align: top;
+
+  /* Pour donner assez de place pour écrire du texte */
+  height: 5em;
+}
+
+.button {
+  /* Pour placer le bouton à la même position que les champs texte */
+  padding-left: 90px; /* même taille que les étiquettes */
+}
+
+button {
+  padding: 5px 10px;
+    background-color: rgba(244, 189, 126, 0.534);
+  /* Cette marge supplémentaire représente grosso modo le même espace que celui
+     entre les étiquettes et les champs texte */
+  margin-left: .5em;
+  
+}
+
+
+
 
 @media screen and (max-width: 768px) {
   $size-width: 350px;
