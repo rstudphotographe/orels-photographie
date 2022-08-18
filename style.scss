@@ -446,8 +446,8 @@ button {
   $size-width: 350px;
   $size-height: 230px;
   .carousel-wrapper {
-    width: $size-width * 1.1;
-    height: $size-height * 1.4;
+    width: $size-width * 1;
+    height: $size-height * 1;
     margin: 150px auto 20px;
   }
 
@@ -462,6 +462,20 @@ button {
     > div {
       width: $size-width;
       height: $size-height;
+    }
+    .image-one {
+      background-image: url("images/IMG_0485.jpg");
+      height: 230px;
+  
+    }
+    .image-two {
+      background-image: url("images/gabi_noir_et_blanc.jpg");
+      height: 230px;
+    }
+    .image-three {
+      background-image: url("images/marie_noir_et_blanc.jpg");
+      height: 230px;
+  
     }
   }
 
@@ -489,23 +503,26 @@ button {
 /****************************************Responsive*************/
 @media screen and (max-width: 770px) {
   body {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(0, 0, 0);
   }
 
   .bg_head{
     width: 107%;
+    height: auto;
   }
   .title_site {
     font-size: 20px;
     margin-top: 25px;
+    color: white;
   }
   .picture_me {
     width: 30%;
   }
   .img_head {
-    margin: 10px 110px;
+    margin: -250px 40px;
     border-radius: 0;
-    color: #000;
+    color: rgb(255, 254, 254);
+    font-size: 30px;
   }
   .container_nav {
     //margin: 30px 65px;
@@ -514,9 +531,14 @@ button {
     margin: 0;
   }
   .activity {
-    color: #000;
+    color: rgb(255, 254, 254);
     font-size: 15px;
-    margin: -11px 35px;
+    margin: -6px 40px;
+  }
+  .country{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin: 20px 10% ;
   }
   .activity_gall{
     margin: -11px 95px;
@@ -531,16 +553,16 @@ button {
     margin: 15px 140px;
   }
   .nav_bar {
-    font-size: 20px;
-    color: #000;
+    font-size: 11px;
+    color: rgb(255, 255, 255);
   }
   .nav_site {
     margin: 65px 50px;
   }
   .container_nav_bar {
-    margin: -47px 0;
-    display: flex;
-    justify-content: center;
+    margin: -17px -35px;
+    // display: flex;
+    // justify-content: center;
     //display: block;
   }
 .me{
@@ -601,13 +623,9 @@ button {
   .other {
     margin: 41px 49px;
   }
-  #body_presta {
-    background-color: white;
-  }
+  
   /*********************************Gallerie*********************/
-  .container_nav_bar{
-    margin: -15px 0;
-  }
+  
   .motivation {
     margin: 145px 25px;
 }
