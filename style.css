@@ -555,7 +555,7 @@ button {
   .bg_head {
     width: 107%;
     height: auto;
-    margin-top: 200px;
+    margin-top: 70px;
   }
   .logo {
     margin: 295px 25%;
@@ -563,7 +563,7 @@ button {
   .activity {
     color: rgb(255, 254, 254);
     font-size: 15px;
-    margin: -118px 17%;
+    margin: -44px 17%;
   }
   .container_nav_bar {
     margin: -17px;
@@ -664,6 +664,9 @@ button {
   .container_presta {
     width: 80%;
     margin: 25px 5px;
+  }
+  .container_prestation {
+    margin: -280px 0px;
   }
   .container_precision {
     margin: 0px;
