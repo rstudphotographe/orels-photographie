@@ -14,11 +14,11 @@ a {
 }
 
 .bg_head {
+  margin-top: 30px;
   height: 750px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  z-index: 0;
 }
 
 .img_head {
@@ -26,8 +26,7 @@ a {
   font-size: 55px;
   font-style: italic;
   color: whitesmoke;
-  position: absolute;
-  margin: -495px 206px;
+  margin: 180px 50px;
   text-shadow: 0px 0px 17px #dbac28;
 }
 
@@ -37,16 +36,21 @@ a {
   color: white;
 }
 
+.title_3 {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
 .activity {
   color: rgb(255, 255, 255);
-  margin: -780px 285px 0;
-  font-size: 30px;
+  margin: -190px 50px 0;
+  font-size: 25px;
   font-family: "Lobster", cursive;
-  font-weight: normal;
+  font-weight: 100;
 }
 
 .container_nav {
-  margin-top: -212px;
+  margin-top: -160px;
   display: flex;
   align-items: center;
 }
@@ -65,9 +69,10 @@ a {
 }
 
 .country {
-  margin: 210px 33%;
+  margin: 75px 20%;
   font-weight: 100;
   color: white;
+  font-size: 27px;
 }
 
 .img_logo {
@@ -82,8 +87,7 @@ a {
 }
 
 .nav_site {
-  position: absolute;
-  margin: 0 55% -30%;
+  margin: -205px 495px -17%;
 }
 
 .nav {
@@ -101,9 +105,11 @@ a {
 }
 
 .presentation {
+  width: 25%;
   display: flex;
   align-items: center;
-  margin: 150px 50px;
+  margin: 100px 55%;
+  padding: 10px;
   box-shadow: 7px 7px 0px 0px rgba(46, 61, 73, 0.2);
   border-radius: 10px;
   border: 1px solid darkgrey;
@@ -111,13 +117,13 @@ a {
 }
 
 .picture_me {
-  width: 20%;
-  margin: 20px 20px;
+  width: 25%;
+  position: relative;
+  margin: -430px 80px;
   border-radius: 10px;
 }
 
 .about {
-  width: 100%;
   font-size: 18px;
 }
 
@@ -127,14 +133,6 @@ a {
 }
 
 /*****************************Gallerie********************/
-.img_gall_head {
-  width: 100%;
-  height: 370px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 0 0 30px 30px;
-}
-
 .img_head_gall {
   margin: -440px 150px;
 }
@@ -185,10 +183,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-}
-
-.nav_gall {
-  margin-left: 69%;
 }
 
 #container_img {
@@ -303,6 +297,9 @@ li {
 .copyr {
   color: white;
   font-size: 15px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
 }
 
 .contact {
@@ -310,11 +307,7 @@ li {
 }
 
 .reseau_socio {
-  margin: 25px 40%;
-}
-
-.socio_index {
-  margin: 0px 40% 20px;
+  margin: 25px 585px;
 }
 
 .mail {
@@ -487,7 +480,7 @@ button {
   .carousel-wrapper {
     width: 350px;
     height: 230px;
-    margin: 150px auto 20px;
+    margin: 50px auto 20px;
   }
   .carousel-container {
     width: 350px;
@@ -562,6 +555,18 @@ button {
   .bg_head {
     width: 107%;
     height: auto;
+    margin-top: 200px;
+  }
+  .logo {
+    margin: 295px 25%;
+  }
+  .activity {
+    color: rgb(255, 254, 254);
+    font-size: 15px;
+    margin: -118px 17%;
+  }
+  .container_nav_bar {
+    margin: -17px;
   }
   .title_site {
     font-size: 20px;
@@ -570,6 +575,7 @@ button {
   }
   .picture_me {
     width: 30%;
+    margin: 30px 35%;
   }
   .img_head {
     margin: -250px 40px;
@@ -582,15 +588,10 @@ button {
     display: block;
     margin: 0;
   }
-  .activity {
-    color: rgb(255, 254, 254);
-    font-size: 15px;
-    margin: -6px 40px;
-  }
   .country {
     color: rgb(255, 255, 255);
-    font-size: 15px;
-    margin: 20px 10%;
+    font-size: 20px;
+    margin: 20px 11%;
   }
   .activity_gall {
     margin: -11px 95px;
@@ -611,9 +612,6 @@ button {
   .nav_site {
     margin: 65px 50px;
   }
-  .container_nav_bar {
-    margin: -17px -35px;
-  }
   .me {
     font-size: 18px;
     font-weight: lighter;
@@ -629,10 +627,11 @@ button {
   .presentation {
     display: block;
     background-color: rgb(255, 255, 255);
-    margin: 0;
+    margin: 0px 6px;
+    width: auto;
   }
   .reseau_socio {
-    margin: 85px 30px;
+    margin: 85px 37%;
   }
   .insta {
     margin: 25px 79px;
@@ -646,10 +645,14 @@ button {
     position: absolute;
     margin: -25px 85px;
   }
-  /************************************Prestation*****************/
-  .prestation {
-    margin: 155px 30px;
+  .copyr {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    /* justify-content: center; */
+    margin: -54px 30px;
   }
+  /************************************Prestation*****************/
   .title_formule {
     position: absolute;
     margin: -55px 30%;

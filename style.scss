@@ -13,18 +13,18 @@ a {
   text-decoration: none;
 }
 .bg_head{
+  margin-top: 30px;
   height: 750px;
     width: 100%;
     object-fit: cover;
-    z-index: 0;
+    
 }
 .img_head {
   font-family: "Lobster", cursive;
   font-size: 55px;
   font-style: italic;
   color: whitesmoke;
-  position: absolute;
-  margin: -495px 206px;
+  margin: 180px 50px;
   text-shadow: 0px 0px 17px #dbac28;
 }
 
@@ -33,16 +33,20 @@ a {
   margin: -130px 5px 10px 110px;
   color: white;
 }
+.title_3{
+  font-size: 18px;
+  font-weight: lighter;
+}
 .activity {
   color: rgb(255, 255, 255);
-  margin: -780px 285px 0;
-  font-size: 30px;
+  margin: -190px 50px 0;
+  font-size: 25px;
   font-family: "Lobster", cursive;
-  font-weight: normal;
+  font-weight: 100;
 }
 
 .container_nav {
-  margin-top: -212px;
+  margin-top: -160px;
   display: flex;
   align-items: center;
 }
@@ -58,9 +62,10 @@ a {
   align-items: center;
 }
 .country{
-margin: 210px 33%;
+margin: 75px 20%;
 font-weight: 100;
 color: white;
+font-size: 27px;
 }
 .img_logo {
   width: 100%;
@@ -73,8 +78,8 @@ color: white;
   margin: 0 50px;
 }
 .nav_site {
-  position: absolute;
-  margin:0 55% -30%;
+
+  margin:-205px 495px -17%;
 }
 .nav {
   font-size: 20px;
@@ -91,22 +96,25 @@ color: white;
   width: 50%;
 }
 .presentation {
+  width: 25%;
   display: flex;
   align-items: center;
-  margin: 150px 50px;
+  margin: 100px 55%;
+  padding: 10px;
   box-shadow: 7px 7px 0px 0px rgb(46 61 73 / 20%);
   border-radius: 10px;
   border: 1px solid darkgrey;
   background-color: rgb(254, 255, 255);
 }
 .picture_me {
-  width: 20%;
-    margin: 20px 20px;
+  width: 25%;
+  position: relative;
+    margin: -430px 80px;
     border-radius: 10px;
 }
 
 .about {
-  width: 100%;
+  
   font-size: 18px;
 }
 
@@ -120,12 +128,7 @@ color: white;
     font-weight: normal;
 }
 /*****************************Gallerie********************/
-.img_gall_head {
-  width: 100%;
-  height: 370px;
-  object-fit: cover;
-  border-radius: 0 0 30px 30px;
-}
+
 .img_head_gall{
   margin: -440px 150px;;
 }
@@ -172,9 +175,7 @@ color: white;
   align-items: flex-start;
 }
 
-.nav_gall {
-  margin-left: 69%;
-}
+
 #container_img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -279,18 +280,19 @@ li {
 .copyr{
   color: white;
   font-size: 15px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
 }
 
 .contact {
   color: white;
 }
 .reseau_socio {
-  margin: 25px 40%;
+  margin: 25px 585px;
   
 }
-.socio_index {
-  margin: 0px 40% 20px;
-}
+
 .mail {
   color: rgb(255, 255, 255);
   margin: -25px 80px 1px;
@@ -448,7 +450,7 @@ button {
   .carousel-wrapper {
     width: $size-width * 1;
     height: $size-height * 1;
-    margin: 150px auto 20px;
+    margin: 50px auto 20px;
   }
 
   .carousel-container {
@@ -509,6 +511,21 @@ button {
   .bg_head{
     width: 107%;
     height: auto;
+    margin-top: 200px;
+  }
+  .logo{
+    margin: 295px 25%;
+  }
+  .activity {
+    color: rgb(255, 254, 254);
+    font-size: 15px;
+    margin: -118px 17%;
+  }
+  .container_nav_bar {
+    margin: -17px ;
+    // display: flex;
+    // justify-content: center;
+    //display: block;
   }
   .title_site {
     font-size: 20px;
@@ -517,6 +534,7 @@ button {
   }
   .picture_me {
     width: 30%;
+    margin: 30px 35%;
   }
   .img_head {
     margin: -250px 40px;
@@ -530,15 +548,10 @@ button {
     display: block;
     margin: 0;
   }
-  .activity {
-    color: rgb(255, 254, 254);
-    font-size: 15px;
-    margin: -6px 40px;
-  }
   .country{
     color: rgb(255, 255, 255);
-    font-size: 15px;
-    margin: 20px 10% ;
+    font-size: 20px;
+    margin: 20px 11% ;
   }
   .activity_gall{
     margin: -11px 95px;
@@ -559,12 +572,6 @@ button {
   .nav_site {
     margin: 65px 50px;
   }
-  .container_nav_bar {
-    margin: -17px -35px;
-    // display: flex;
-    // justify-content: center;
-    //display: block;
-  }
 .me{
   font-size: 18px;
   font-weight: lighter;
@@ -582,10 +589,11 @@ button {
   .presentation {
     display: block;
     background-color: rgb(255, 255, 255);
-    margin: 0;
+    margin: 0px 6px;
+    width: auto;
   }
   .reseau_socio{
-    margin: 85px 30px;
+    margin: 85px 37%;
     
   }
   .insta {
@@ -600,10 +608,15 @@ button {
   position: absolute;
   margin: -25px 85px;
 }
+.copyr {
+  color: white;
+  font-size: 15px;
+  display: flex;
+  /* justify-content: center; */
+  margin: -54px 30px;
+}
   /************************************Prestation*****************/
-  .prestation {
-    margin: 155px 30px;
-  }
+
   .title_formule {
     position: absolute;
     margin: -55px 30%;
