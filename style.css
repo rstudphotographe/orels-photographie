@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Aboreto", cursive;
 }
 
 body {
@@ -15,7 +16,7 @@ a {
 
 .bg_head {
   margin-top: 30px;
-  height: 750px;
+  height: 465px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -70,9 +71,8 @@ a {
 
 .country {
   margin: 75px 20%;
-  font-weight: 100;
   color: white;
-  font-size: 27px;
+  font-size: 19px;
 }
 
 .img_logo {
@@ -87,7 +87,7 @@ a {
 }
 
 .nav_site {
-  margin: -205px 495px -17%;
+  margin: -205px 455px -17%;
 }
 
 .nav {
@@ -127,9 +127,19 @@ a {
   font-size: 18px;
 }
 
+.container_about {
+  font-weight: 900;
+}
+
 .me {
   font-size: 19px;
-  font-weight: normal;
+  font-weight: 900;
+}
+
+.container_contact {
+  display: block;
+  justify-content: center;
+  margin: 30px -107px;
 }
 
 /*****************************Gallerie********************/
@@ -149,7 +159,7 @@ a {
 }
 
 .motivation {
-  margin: 455px 140px;
+  margin: 75px 140px;
   color: white;
 }
 
@@ -251,12 +261,12 @@ li {
   box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
   border-radius: 20px;
   padding: 25px;
-  margin: 50px 30%;
+  margin: 50px 22%;
 }
 
 .title_formule {
   position: absolute;
-  margin: -70px 45%;
+  margin: -200px 44%;
   color: white;
 }
 
@@ -281,8 +291,13 @@ li {
 }
 
 .other {
-  margin: 0 30%;
+  margin: 0 21%;
   color: white;
+}
+
+.title_precision {
+  font-size: 20px;
+  margin: 15px 0px;
 }
 
 .container_precision {
@@ -303,6 +318,7 @@ li {
 }
 
 .contact {
+  margin: 1px -41px;
   color: white;
 }
 
