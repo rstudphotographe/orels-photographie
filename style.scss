@@ -513,7 +513,7 @@ button {
   }
 
   .bg_head{
-    width: 107%;
+    //width: 107%;
     height: auto;
     margin-top: 70px;
   }
@@ -597,7 +597,7 @@ button {
     width: auto;
   }
   .reseau_socio{
-    margin: 85px 37%;
+    margin: 85px 150px;
     
   }
   .insta {
@@ -610,7 +610,7 @@ button {
   }
 .mail{
   position: absolute;
-  margin: -25px 85px;
+  margin: -25px 55px;
 }
 .copyr {
   color: white;
@@ -630,7 +630,7 @@ button {
     font-size: 20px;
   }
   .container_presta {
-    width: 80%;
+    //width: 80%;
     margin: 25px 5px;
   }
 
@@ -638,11 +638,14 @@ button {
     margin: -280px 0px;
   }
   .container_precision {
-    margin: 0px;
-    width: 85%;
+    margin: -280px 14px;
+    //width: 85%;
+  }
+  .contact{
+    margin: 1px -25px;
   }
   .other {
-    margin: 41px 49px;
+    margin: 320px 49px;
   }
   
   /*********************************Gallerie*********************/

@@ -565,7 +565,6 @@ button {
     background-color: rgb(0, 0, 0);
   }
   .bg_head {
-    width: 107%;
     height: auto;
     margin-top: 70px;
   }
@@ -643,7 +642,7 @@ button {
     width: auto;
   }
   .reseau_socio {
-    margin: 85px 37%;
+    margin: 85px 150px;
   }
   .insta {
     margin: 25px 79px;
@@ -655,7 +654,7 @@ button {
   }
   .mail {
     position: absolute;
-    margin: -25px 85px;
+    margin: -25px 55px;
   }
   .copyr {
     color: white;
@@ -674,18 +673,19 @@ button {
     font-size: 20px;
   }
   .container_presta {
-    width: 80%;
     margin: 25px 5px;
   }
   .container_prestation {
     margin: -280px 0px;
   }
   .container_precision {
-    margin: 0px;
-    width: 85%;
+    margin: -280px 14px;
+  }
+  .contact {
+    margin: 1px -25px;
   }
   .other {
-    margin: 41px 49px;
+    margin: 320px 49px;
   }
   /*********************************Gallerie*********************/
   .motivation {
