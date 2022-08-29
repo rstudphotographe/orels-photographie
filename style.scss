@@ -462,10 +462,8 @@ $size-height: 480px;
     margin: -44px 17%;
   }
   .container_nav_bar {
-    margin: -17px ;
-    // display: flex;
-    // justify-content: center;
-    //display: block;
+    margin: 25% ;
+    justify-content: center;
   }
   .title_site {
     font-size: 20px;
@@ -477,11 +475,13 @@ $size-height: 480px;
     margin: 30px 35%;
   }
   .img_head {
-    margin: -250px 40px;
+    font-family: 'Fleur De Leah', cursive;
+    margin: -280px 36px;
     border-radius: 0;
     color: rgb(255, 254, 254);
-    font-size: 30px;
+    font-size: 55px;
   }
+
   .container_nav {
     //margin: 30px 65px;
     width: 100%;
@@ -489,15 +489,16 @@ $size-height: 480px;
     margin: 0;
   }
   .country{
+    font-weight: 100;
     color: rgb(255, 255, 255);
     font-size: 20px;
-    margin: 20px 11% ;
+    margin: 20px 10% ;
   }
   .activity_gall{
-    margin: -11px 95px;
+    margin: -44px 5%;
   }
   .activity_presta {
-    margin: -11px 87px;
+    margin: -11px 17px;
   }
   .title_site {
     font-size: 40px;
@@ -517,6 +518,7 @@ $size-height: 480px;
   font-weight: lighter;
 }
   .container_about {
+    font-weight: 100;
     text-align: justify;
     margin: 10px;
   }
@@ -533,14 +535,16 @@ $size-height: 480px;
     width: auto;
   }
   .reseau_socio{
-    margin: 85px 150px;
+    margin: 80px 160px;
     
   }
   .insta {
+    font-size: 25px;
     margin: 25px 79px;
     border-radius: 25px;
   }
   .facebk {
+    font-size: 25px;
     margin: 0 -45px;
     border-radius: 25px;
   }
@@ -592,7 +596,7 @@ $size-height: 480px;
   /*********************************Gallerie*********************/
   
   .motivation {
-    margin: 145px 25px;
+    margin: 14px 25px;
 }
   .nav_site_gall {
     display: block;
