@@ -249,7 +249,7 @@ li {
   box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
   border-radius: 20px;
   padding: 25px;
-  margin: 50px 22%;
+  margin: 50px 20%;
 }
 
 .title_formule {
@@ -279,7 +279,7 @@ li {
 }
 
 .other {
-  margin: 0 21%;
+  margin: 0 30%;
   color: white;
 }
 
@@ -296,6 +296,11 @@ li {
   background-color: whitesmoke;
 }
 
+.footer {
+  margin: -280px 0px;
+  padding: 2px;
+}
+
 /**********************FOOTER****************************/
 .copyr {
   color: white;
@@ -306,7 +311,7 @@ li {
 }
 
 .contact {
-  margin: 1px -41px;
+  margin: 2px 3px;
   color: white;
 }
 
