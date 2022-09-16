@@ -48,8 +48,9 @@ a {
 }
 .container_nav_bar {
   display: flex;
-  margin: 0px 85%;
+ // margin: 0px 85%;
   justify-content: space-around;
+  align-items: center;
 }
 #head {
   display: flex;
@@ -74,7 +75,7 @@ font-size: 19px;
 }
 .nav_site {
 
-  margin:-205px 615px -17%;
+  margin:-205px 730px -17%;
 }
 .nav {
   font-size: 20px;
@@ -221,6 +222,7 @@ li {
   background-color: black;
 }
 .nav_bar {
+  width: max-content;
   color: white;
   font-size: 16px;
   border: 2px solid rgb(206, 173, 65);
@@ -284,7 +286,11 @@ li {
   margin: -280px 0px;
   padding: 2px;
 }
-
+/***************************ACCES*************************/
+.img_client{
+  width: 100%;
+  margin: 20px 0;
+}
 /**********************FOOTER****************************/
 .copyr{
   color: white;

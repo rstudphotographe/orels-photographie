@@ -53,8 +53,8 @@ a {
 
 .container_nav_bar {
   display: flex;
-  margin: 0px 85%;
   justify-content: space-around;
+  align-items: center;
 }
 
 #head {
@@ -82,7 +82,7 @@ a {
 }
 
 .nav_site {
-  margin: -205px 615px -17%;
+  margin: -205px 730px -17%;
 }
 
 .nav {
@@ -232,6 +232,9 @@ li {
 }
 
 .nav_bar {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   color: white;
   font-size: 16px;
   border: 2px solid rgb(206, 173, 65);
@@ -299,6 +302,12 @@ li {
 .footer {
   margin: -280px 0px;
   padding: 2px;
+}
+
+/***************************ACCES*************************/
+.img_client {
+  width: 100%;
+  margin: 20px 0;
 }
 
 /**********************FOOTER****************************/
