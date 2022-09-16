@@ -310,6 +310,15 @@ li {
   margin: 20px 0;
 }
 
+.accesclient {
+  display: inline-block;
+  width: 100%;
+  max-width: 370px;
+  margin: 130px 490px;
+  vertical-align: top;
+  font-family: "Open Sans", sans-serif;
+}
+
 /**********************FOOTER****************************/
 .copyr {
   color: white;
@@ -666,6 +675,11 @@ li {
   }
   .title_page {
     display: none;
+  }
+  /******************Client************************/
+  .accesclient {
+    max-width: 335px;
+    margin: 130px 11px;
   }
 }
 /***********************************FIN RESPONSIVE*************************************//*# sourceMappingURL=style.css.map */
