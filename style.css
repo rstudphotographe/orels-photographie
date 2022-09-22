@@ -21,10 +21,11 @@ a {
 }
 
 .img_head {
-  font-size: 35px;
+  font-size: 47px;
   color: whitesmoke;
   margin: 180px 50px;
   text-shadow: 0px 0px 17px #dbac28;
+  font-family: "Fleur De Leah", cursive;
 }
 
 .title_site {
@@ -157,7 +158,7 @@ a {
   border-radius: 7px;
   border: 2px solid rgb(228, 203, 111);
   width: 100%;
-  height: 335px;
+  height: 435px;
 }
 
 .title_page {
@@ -189,7 +190,7 @@ a {
   gap: 25px;
   margin-left: 25px;
   margin-right: 25px;
-  margin-top: 250px;
+  margin-top: 100px;
 }
 
 /******************************Page prestation*****************/
