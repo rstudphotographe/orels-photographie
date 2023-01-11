@@ -5,7 +5,7 @@
   
 }
 body {
-  background-color: #000;
+  background-color: rgb(0, 0, 0);
 }
 
 a {
@@ -13,7 +13,7 @@ a {
 }
 .bg_head{
   margin-top: 30px;
-  height: 465px;
+  height: 415px;
     width: 100%;
     object-fit: cover;
     
@@ -38,8 +38,7 @@ a {
 .activity {
   color: rgb(255, 255, 255);
   margin: -190px 50px 0;
-  font-size: 30px;
-  font-weight: 100;
+  font-size: 21px;
 }
 
 .container_nav {
@@ -138,15 +137,11 @@ font-weight: 900;
   color: #000;
 }
 
-// .activity_gall {
-//   position: absolute;
-//   margin: 750px 140px 0;;
-//   color: white;
-//   font-size: x-large;
-// }
+
 .motivation{
   margin: 75px 140px;
   color: white;
+  font-size: 20px;
 }
 .img_gallerie {
   object-fit: cover;
@@ -272,7 +267,7 @@ li {
   color: white;
 }
 .title_precision{
-  font-size: 20px;
+  font-size: 19px;
   margin: 15px 0px;
 }
 .container_precision {
@@ -319,7 +314,7 @@ li {
 
 .mail {
   color: rgb(255, 255, 255);
-  margin: -25px 80px 1px;
+  margin: -20px 80px 1px;
     position: absolute;
 }
 .fa-brands{
@@ -479,7 +474,7 @@ $size-height: 480px;
   }
   .activity {
     color: rgb(255, 254, 254);
-    font-size: 15px;
+
     margin: -44px 17%;
   }
   .container_nav_bar {
@@ -517,6 +512,7 @@ $size-height: 480px;
   }
   .activity_gall{
     margin: -44px 5%;
+    
   }
   .activity_presta {
     margin: -11px 17px;

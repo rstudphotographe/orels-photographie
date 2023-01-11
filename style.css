@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #000;
+  background-color: rgb(0, 0, 0);
 }
 
 a {
@@ -14,7 +14,7 @@ a {
 
 .bg_head {
   margin-top: 30px;
-  height: 465px;
+  height: 415px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -42,8 +42,7 @@ a {
 .activity {
   color: rgb(255, 255, 255);
   margin: -190px 50px 0;
-  font-size: 30px;
-  font-weight: 100;
+  font-size: 21px;
 }
 
 .container_nav {
@@ -150,6 +149,7 @@ a {
 .motivation {
   margin: 75px 140px;
   color: white;
+  font-size: 20px;
 }
 
 .img_gallerie {
@@ -288,7 +288,7 @@ li {
 }
 
 .title_precision {
-  font-size: 20px;
+  font-size: 19px;
   margin: 15px 0px;
 }
 
@@ -340,7 +340,7 @@ li {
 
 .mail {
   color: rgb(255, 255, 255);
-  margin: -25px 80px 1px;
+  margin: -20px 80px 1px;
   position: absolute;
 }
 
@@ -530,7 +530,6 @@ li {
   }
   .activity {
     color: rgb(255, 254, 254);
-    font-size: 15px;
     margin: -44px 17%;
   }
   .container_nav_bar {
