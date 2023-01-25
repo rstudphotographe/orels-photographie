@@ -4,17 +4,13 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgb(0, 0, 0);
-}
-
 a {
   text-decoration: none;
 }
 
 .bg_head {
   margin-top: 30px;
-  height: 415px;
+  height: 600px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -22,7 +18,7 @@ a {
 
 .img_head {
   font-size: 47px;
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
   margin: 180px 50px;
   text-shadow: 0px 0px 17px #dbac28;
   font-family: "Fleur De Leah", cursive;
@@ -40,9 +36,10 @@ a {
 }
 
 .activity {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   margin: -190px 50px 0;
   font-size: 21px;
+  font-weight: lighter;
 }
 
 .container_nav {
@@ -82,7 +79,7 @@ a {
 }
 
 .nav_site {
-  margin: -205px 730px -17%;
+  margin: -205px 630px -16%;
 }
 
 .nav {
@@ -100,10 +97,10 @@ a {
 }
 
 .presentation {
-  width: 25%;
+  width: 50%;
   display: flex;
   align-items: center;
-  margin: 100px 55%;
+  margin: 230px 415px;
   padding: 10px;
   box-shadow: 7px 7px 0px 0px rgba(46, 61, 73, 0.2);
   border-radius: 10px;
@@ -119,11 +116,7 @@ a {
 }
 
 .about {
-  font-size: 18px;
-}
-
-.container_about {
-  font-weight: 900;
+  font-size: 15px;
 }
 
 .me {
@@ -134,10 +127,18 @@ a {
 .container_contact {
   display: block;
   justify-content: center;
-  margin: 30px -107px;
+  margin: 145px 50px;
 }
 
 /*****************************Gallerie********************/
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
+}
+
 .img_head_gall {
   margin: -440px 150px;
 }
@@ -148,8 +149,8 @@ a {
 
 .motivation {
   margin: 75px 140px;
-  color: white;
-  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
 }
 
 .img_gallerie {
@@ -194,6 +195,14 @@ a {
 }
 
 /******************************Page prestation*****************/
+.redflower {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 45%;
+  position: relative;
+  margin: 50px -11px 335px;
+}
+
 .bg_head_presta {
   height: 450px;
   -o-object-fit: cover;
@@ -225,7 +234,7 @@ a {
 
 li {
   list-style: none;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 #body_presta {
@@ -236,13 +245,17 @@ li {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  color: white;
+  color: rgb(1, 1, 1);
   font-size: 16px;
   border: 2px solid rgb(206, 173, 65);
   border-style: outset;
   border-radius: 25px;
   padding: 5px;
   margin: 0 15px;
+}
+
+.container_prestation {
+  margin: 40px 40px;
 }
 
 .container_presta {
@@ -253,18 +266,19 @@ li {
   box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
   border-radius: 20px;
   padding: 25px;
-  margin: 50px 29%;
+  margin: 10px 8%;
 }
 
 .title_formule {
   position: absolute;
-  margin: -200px 36%;
-  color: white;
+  margin: -25px 34%;
+  color: rgb(9, 9, 9);
+  font-size: 20px;
 }
 
 .prestation {
-  width: 100%;
-  margin: 360px 0px;
+  display: flex;
+  margin: 190px 0px 0px 35px;
 }
 
 li {
@@ -272,9 +286,9 @@ li {
 }
 
 .title_presta {
-  font-size: 35px;
+  font-size: 25px;
   margin-bottom: 45px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .liste_presta {
@@ -288,16 +302,22 @@ li {
 }
 
 .title_precision {
-  font-size: 19px;
+  font-size: 17px;
   margin: 15px 0px;
 }
 
 .container_precision {
-  margin: 60px 320px 0px 335px;
+  margin: 900px 690px 0px -10px;
+  position: absolute;
   border: 1px green solid;
   padding: 20px;
   border-radius: 15px;
   background-color: whitesmoke;
+}
+
+.footer-presta {
+  margin: -100px 0px;
+  padding: 2px;
 }
 
 .footer {
@@ -305,24 +325,26 @@ li {
   padding: 2px;
 }
 
-/***************************ACCES*************************/
-.img_client {
-  width: 100%;
-  margin: 20px 0;
+/************************contact***************************/
+.invit_contact {
+  margin: 80px 50px;
 }
 
-.accesclient {
-  display: inline-block;
-  width: 100%;
-  max-width: 370px;
-  margin: 130px 490px;
-  vertical-align: top;
-  font-family: "Open Sans", sans-serif;
+.img_contact {
+  width: 32%;
+  margin: -100px 425px;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.mail_contact {
+  margin: 18px 0;
 }
 
 /**********************FOOTER****************************/
 .copyr {
-  color: white;
+  color: rgb(6, 6, 6);
   font-size: 15px;
   display: flex;
   justify-content: center;
@@ -331,7 +353,7 @@ li {
 
 .contact {
   margin: 2px 3px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .reseau_socio {
@@ -339,7 +361,7 @@ li {
 }
 
 .mail {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   margin: -20px 80px 1px;
   position: absolute;
 }
@@ -358,164 +380,6 @@ li {
   color: #1c17bb;
 }
 
-/******************************carrousel******************/
-.carousel-wrapper {
-  width: 1210px;
-  height: 624px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 200px auto 20px;
-}
-
-.carousel-container {
-  width: 1100px;
-  height: 680px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.carousel {
-  display: flex;
-  width: 3300px;
-  -webkit-animation: sliding 12s infinite;
-          animation: sliding 12s infinite;
-}
-.carousel div {
-  width: 1100px;
-  height: 480px;
-  background-size: cover;
-  background-position: center;
-}
-.carousel:hover {
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
-}
-.carousel .image-one {
-  background-image: url("images/IMG_0485.jpg");
-  height: 720px;
-}
-.carousel .image-two {
-  background-image: url("images/gabi_noir_et_blanc.jpg");
-  height: 720px;
-}
-.carousel .image-three {
-  background-image: url("images/marie_noir_et_blanc.jpg");
-  height: 720px;
-}
-
-@-webkit-keyframes sliding {
-  30% {
-    transform: translateX(0);
-  }
-  35% {
-    transform: translateX(-1100px);
-  }
-  65% {
-    transform: translateX(-1100px);
-  }
-  70% {
-    transform: translateX(-2200px);
-  }
-  98% {
-    transform: translateX(-2200px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes sliding {
-  30% {
-    transform: translateX(0);
-  }
-  35% {
-    transform: translateX(-1100px);
-  }
-  65% {
-    transform: translateX(-1100px);
-  }
-  70% {
-    transform: translateX(-2200px);
-  }
-  98% {
-    transform: translateX(-2200px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@media screen and (max-width: 768px) {
-  .carousel-wrapper {
-    width: 350px;
-    height: 230px;
-    margin: 50px auto 20px;
-  }
-  .carousel-container {
-    width: 350px;
-    height: 230px;
-    border-radius: inherit;
-  }
-  .carousel {
-    width: 1050px;
-  }
-  .carousel > div {
-    width: 350px;
-    height: 230px;
-  }
-  .carousel .image-one {
-    background-image: url("images/IMG_0485.jpg");
-    height: 230px;
-  }
-  .carousel .image-two {
-    background-image: url("images/gabi_noir_et_blanc.jpg");
-    height: 230px;
-  }
-  .carousel .image-three {
-    background-image: url("images/marie_noir_et_blanc.jpg");
-    height: 230px;
-  }
-  @-webkit-keyframes sliding {
-    30% {
-      transform: translateX(0);
-    }
-    35% {
-      transform: translateX(-350px);
-    }
-    65% {
-      transform: translateX(-350px);
-    }
-    70% {
-      transform: translateX(-700px);
-    }
-    98% {
-      transform: translateX(-700px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-  @keyframes sliding {
-    30% {
-      transform: translateX(0);
-    }
-    35% {
-      transform: translateX(-350px);
-    }
-    65% {
-      transform: translateX(-350px);
-    }
-    70% {
-      transform: translateX(-700px);
-    }
-    98% {
-      transform: translateX(-700px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-}
 /****************************************Responsive*************/
 @media screen and (max-width: 770px) {
   body {
