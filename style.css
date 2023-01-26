@@ -394,7 +394,8 @@ li {
   }
   .activity {
     color: rgb(255, 254, 254);
-    margin: -44px 17%;
+    font-size: 12px;
+    margin: -40px 30px 45px;
   }
   .container_nav_bar {
     margin: 25%;
@@ -490,22 +491,33 @@ li {
     margin: -54px 30px;
   }
   /************************************Prestation*****************/
+  .redflower {
+    height: 200px;
+    display: none;
+  }
+  .prestation {
+    display: block;
+    margin: 0px 0px;
+  }
   .title_formule {
     position: absolute;
-    margin: -55px 30%;
-    font-size: 25px;
+    margin: -55px 20px;
+    font-size: 15px;
+    color: white;
   }
   .title_presta {
     font-size: 20px;
   }
   .container_presta {
     margin: 25px 5px;
+    background-color: antiquewhite;
   }
   .container_prestation {
-    margin: -280px 0px;
+    margin: 100px 0px;
   }
   .container_precision {
     margin: -280px 14px;
+    display: none;
   }
   .container_contact {
     display: flex;
@@ -521,6 +533,8 @@ li {
   /*********************************Gallerie*********************/
   .motivation {
     margin: 14px 25px;
+    color: white;
+    font-size: 12px;
   }
   .nav_site_gall {
     display: block;
@@ -531,7 +545,14 @@ li {
     margin: 110px 10px;
   }
   .img_gallerie {
-    height: 440px;
+    height: 140px;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
   }
   .img_gall_head {
     height: 150px;
@@ -540,10 +561,9 @@ li {
   .title_page {
     display: none;
   }
-  /******************Client************************/
-  .accesclient {
-    max-width: 335px;
-    margin: 130px 11px;
+  .invit_contact {
+    color: white;
+    font-size: 12px;
   }
 }
 /***********************************FIN RESPONSIVE*************************************//*# sourceMappingURL=style.css.map */
