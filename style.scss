@@ -34,8 +34,8 @@ a {
 }
 .activity {
   color: rgb(0, 0, 0);
-  margin: -190px 50px 0;
-  font-size: 21px;
+  margin: -100px 400px 0;
+  font-size: 27px;
   font-weight: lighter;
 }
 
@@ -93,7 +93,7 @@ font-size: 19px;
   width: 50%;
   display: flex;
   align-items: center;
-  margin: 230px 415px;
+  margin: 105px 415px;
   padding: 10px;
   box-shadow: 7px 7px 0px 0px rgb(46 61 73 / 20%);
   border-radius: 10px;
@@ -116,6 +116,19 @@ font-size: 19px;
 .me{
   font-size: 19px;
     font-weight: 900;
+}
+
+.question {
+  margin: 10px 80px;
+}
+
+.question_bio {
+  font-weight: bold;
+font-size: 20px;
+}
+
+.faq {
+  margin: 70px 475px;
 }
 .container_contact{
   display: block;
@@ -252,9 +265,9 @@ li {
 }
 .title_formule {
   position: absolute;
-  margin: -25px 34%;
+  margin: -15px 55px;
   color: rgb(9, 9, 9);
-  font-size: 20px;
+  font-size: 15px;
 }
 .prestation {
   display: flex;
@@ -279,11 +292,11 @@ li {
   color: white;
 }
 .title_precision{
-  font-size: 17px;
+  font-size: 14px;
   margin: 15px 0px;
 }
 .container_precision {
-  margin: 900px 690px 0px -10px;
+  margin: 50px 58px -87px 593px;
   position: absolute;
   border: 1px green solid;
   padding: 20px;
@@ -292,7 +305,7 @@ li {
 }
 
 .footer-presta{
-  margin: -100px 0px;
+  margin: 100px 0px;
   padding: 2px; 
 }
 
