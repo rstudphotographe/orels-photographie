@@ -381,7 +381,7 @@ object-fit: cover;
   .activity {
     color: rgb(255, 254, 254);
     font-size: 12px;
-    margin: -40px 30px 45px;
+    margin: -40px 56px 20px;
   }
   .container_nav_bar {
     margin: 25% ;
@@ -458,7 +458,7 @@ object-fit: cover;
     width: auto;
   }
   .reseau_socio{
-    margin: 80px 160px;
+    margin: 80px 110px;
     
   }
   .insta {
@@ -477,10 +477,10 @@ object-fit: cover;
 }
 .copyr {
   color: white;
-  font-size: 15px;
+  font-size: 12px;
   display: flex;
   /* justify-content: center; */
-  margin: -54px 30px;
+  margin: -54px 20px;
 }
   /************************************Prestation*****************/
 .redflower {
@@ -490,12 +490,12 @@ object-fit: cover;
 
 .prestation{
   display: block;
-  margin: 0px 0px;
+  margin: 215px 0px;
 }
   .title_formule {
     position: absolute;
-    margin: -55px 20px;
-    font-size: 15px;
+    margin: -75px 0px;
+    font-size: 12px;
     color: white;
   
   }
@@ -512,9 +512,9 @@ object-fit: cover;
     margin: 100px 0px;
   }
   .container_precision {
-    margin: -280px 14px;
+    margin: -100px 0px 0px 0px;;
     //width: 85%;
-    display: none;
+    
   }
 
   
@@ -524,7 +524,23 @@ object-fit: cover;
     margin: 25px 0px;
   }
   .contact{
-    margin: -55px -25px;
+    margin: -55px -10px;
+    color: white;
+  }
+
+  .mail {
+    margin: -55px 0px;
+    color: white;
+  }
+
+  .number{
+    color: white;
+    margin: -25px -25px;
+    font-size: 14px;
+  }
+  .img_contact{
+    margin: 47px -257px;
+    width: 280px;
   }
   .other {
     margin: 320px 49px;
