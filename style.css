@@ -556,6 +556,10 @@ li {
   .other {
     margin: 320px 49px;
   }
+  .footer-presta {
+    margin: 350px 0px;
+    padding: 2px;
+  }
   /*********************************Gallerie*********************/
   .motivation {
     margin: 14px 25px;
@@ -590,6 +594,24 @@ li {
   .invit_contact {
     color: white;
     font-size: 12px;
+  }
+  iframe {
+    width: 100%;
+  }
+  .question {
+    margin: 10px 10px;
+  }
+  .faq {
+    margin: 70px 95px;
+    color: white;
+  }
+  .question_bio {
+    color: white;
+    font-size: 15px;
+  }
+  .reponse_bio {
+    color: white;
+    font-size: 14px;
   }
 }
 /***********************************FIN RESPONSIVE*************************************//*# sourceMappingURL=style.css.map */
