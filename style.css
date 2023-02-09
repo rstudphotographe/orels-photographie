@@ -145,6 +145,7 @@ a {
 
 /*****************************Gallerie********************/
 .parent {
+  margin: 10px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -255,7 +256,6 @@ li {
 }
 
 .nav_bar {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   color: rgb(1, 1, 1);
@@ -355,6 +355,14 @@ li {
   margin: 18px 0;
 }
 
+.mobile {
+  margin: -50px 52px 0px;
+}
+
+.google_form {
+  margin: 50px 175px;
+}
+
 /**********************FOOTER****************************/
 .copyr {
   color: rgb(6, 6, 6);
@@ -425,7 +433,7 @@ li {
   }
   .img_head {
     font-family: "Fleur De Leah", cursive;
-    margin: -280px 36px;
+    margin: -280px 10px;
     border-radius: 0;
     color: rgb(255, 254, 254);
     font-size: 55px;
@@ -557,8 +565,14 @@ li {
     margin: 320px 49px;
   }
   .footer-presta {
-    margin: 350px 0px;
+    margin: 350px 0px 1px;
     padding: 2px;
+  }
+  .footer_presta {
+    margin: 0px;
+  }
+  .mobile {
+    color: white;
   }
   /*********************************Gallerie*********************/
   .motivation {
@@ -607,7 +621,7 @@ li {
   }
   .question_bio {
     color: white;
-    font-size: 15px;
+    font-size: 14px;
   }
   .reponse_bio {
     color: white;
