@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+  font-family: "Gill Sans", sans-serif;
 }
 
 a {
@@ -89,22 +89,26 @@ font-size: 19px;
   box-shadow: 2px 2px 2px 2px rgb(209, 209, 159);
   width: 50%;
 }
+
+.bio_me{
+  margin: 140px 0px;
+}
 .presentation {
-  width: 50%;
+  //width: 50%;
   display: flex;
   align-items: center;
-  margin: 105px 415px;
-  padding: 10px;
+  margin: -40px 30px 30px 730px;;
+  padding: 24px;
   box-shadow: 7px 7px 0px 0px rgb(46 61 73 / 20%);
   border-radius: 10px;
   border: 1px solid darkgrey;
   background-color: rgb(254, 255, 255);
 }
 .picture_me {
-  width: 25%;
+  width: 55%;
   position: relative;
-    margin: -430px 80px;
-    border-radius: 10px;
+    margin: -430px 15px;
+    border-radius: 5px;
 }
 
 .about {
