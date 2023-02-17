@@ -432,8 +432,8 @@ li {
     color: white;
   }
   .picture_me {
-    width: 30%;
-    margin: 30px 35%;
+    width: 95%;
+    margin: 5px 2%;
   }
   .img_head {
     font-family: "Fleur De Leah", cursive;
@@ -630,6 +630,9 @@ li {
   .reponse_bio {
     color: white;
     font-size: 14px;
+  }
+  .google_form {
+    margin: 0px;
   }
 }
 /***********************************FIN RESPONSIVE*************************************//*# sourceMappingURL=style.css.map */
