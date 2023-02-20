@@ -8,19 +8,18 @@
 a {
   text-decoration: none;
 }
-.bg_head{
+.bg_head {
   margin-top: 30px;
   height: 600px;
-    width: 100%;
-    object-fit: cover;
-    
+  width: 100%;
+  object-fit: cover;
 }
 .img_head {
   font-size: 47px;
   color: rgb(0, 0, 0);
   margin: 180px 50px;
   text-shadow: 0px 0px 17px #dbac28;
-  font-family: 'Fleur De Leah', cursive;
+  font-family: "Fleur De Leah", cursive;
 }
 
 .title_site {
@@ -28,13 +27,13 @@ a {
   margin: -130px 5px 10px 110px;
   color: white;
 }
-.title_3{
+.title_3 {
   font-size: 18px;
   font-weight: lighter;
 }
 .activity {
   color: rgb(0, 0, 0);
-  margin: -100px 400px 0;
+  margin: -110px 50px 0;
   font-size: 27px;
   font-weight: lighter;
 }
@@ -46,7 +45,7 @@ a {
 }
 .container_nav_bar {
   display: flex;
- // margin: 0px 85%;
+  // margin: 0px 85%;
   justify-content: space-around;
   align-items: center;
 }
@@ -56,10 +55,10 @@ a {
   flex-wrap: wrap;
   align-items: center;
 }
-.country{
-margin: 75px 20%;
-color: white;
-font-size: 19px;
+.country {
+  margin: 75px 20%;
+  color: white;
+  font-size: 19px;
 }
 .img_logo {
   width: 100%;
@@ -72,8 +71,7 @@ font-size: 19px;
   margin: 0 50px;
 }
 .nav_site {
-
-  margin:-205px 630px -16%;
+  margin: -205px 630px -16%;
 }
 .nav {
   font-size: 20px;
@@ -83,21 +81,20 @@ font-size: 19px;
   margin-top: 10px;
 }
 
-
 .img_gallery {
   border-radius: 25px;
   box-shadow: 2px 2px 2px 2px rgb(209, 209, 159);
   width: 50%;
 }
 
-.bio_me{
+.bio_me {
   margin: 140px 0px;
 }
 .presentation {
   //width: 50%;
   display: flex;
   align-items: center;
-  margin: -40px 30px 30px 730px;;
+  margin: -40px 30px 30px 730px;
   padding: 24px;
   box-shadow: 7px 7px 0px 0px rgb(46 61 73 / 20%);
   border-radius: 10px;
@@ -107,19 +104,17 @@ font-size: 19px;
 .picture_me {
   width: 55%;
   position: relative;
-    margin: -430px 15px;
-    border-radius: 5px;
+  margin: -430px 15px;
+  border-radius: 5px;
 }
 
 .about {
-  
   font-size: 15px;
 }
 
-
-.me{
+.me {
   font-size: 19px;
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .question {
@@ -128,16 +123,16 @@ font-size: 19px;
 
 .question_bio {
   font-weight: bold;
-font-size: 20px;
+  font-size: 20px;
 }
 
 .faq {
   margin: 70px 475px;
 }
-.container_contact{
+.container_contact {
   display: block;
   justify-content: center;
-  margin: 145px 50px
+  margin: 145px 50px;
 }
 /*****************************Gallerie********************/
 .parent {
@@ -147,16 +142,15 @@ font-size: 20px;
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 3px;
   grid-row-gap: 3px;
-  } 
-.img_head_gall{
-  margin: -440px 150px;;
+}
+.img_head_gall {
+  margin: -440px 150px;
 }
 .title_gall {
   color: #000;
 }
 
-
-.motivation{
+.motivation {
   margin: 75px 140px;
   color: rgb(0, 0, 0);
   font-size: 17px;
@@ -190,7 +184,6 @@ font-size: 20px;
   align-items: flex-start;
 }
 
-
 #container_img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -200,20 +193,19 @@ font-size: 20px;
   margin-top: 100px;
 }
 
-
 /******************************Page prestation*****************/
 
 .redflower {
   object-fit: contain;
-  width: 45%;
+  width: 90%;
   position: relative;
-margin: 50px -11px 335px;
+  margin: 50px -11px 335px;
 }
-.bg_head_presta{
+.bg_head_presta {
   height: 450px;
   object-fit: cover;
 }
-.img_head_presta{
+.img_head_presta {
   margin: -165px 200px;
 }
 .nav_presta {
@@ -225,18 +217,18 @@ margin: 50px -11px 335px;
   color: #000;
 }
 
-.activity_presta{
+.activity_presta {
   margin: 400px 200px;
   position: absolute;
 }
 
 .nav_presta {
   position: absolute;
-  margin:0 70% -27%;;
+  margin: 0 70% -27%;
 }
 li {
   list-style: none;
-  color: rgb(0, 0, 0);
+  font-family: "Cormorant Garamond", serif;
 }
 
 #body_presta {
@@ -253,7 +245,7 @@ li {
   margin: 0 15px;
 }
 
-.container_prestation{
+.container_prestation {
   margin: 40px 40px;
 }
 
@@ -270,19 +262,29 @@ li {
 }
 .title_formule {
   position: absolute;
-  margin: -15px 55px;
+  margin: 60px 50px;
   color: rgb(9, 9, 9);
   font-size: 15px;
 }
+
+.title_formule_1 {
+  font-family: "Cinzel", serif;
+  font-size: 25px;
+  text-decoration-line: underline;
+}
 .prestation {
-  display: flex;
-  //width: 100%;
-  margin: 190px 0px 0px 35px;
+  height: 1250px;
+  margin: 80px 0px 0px 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 42px;
+  grid-row-gap: 20px;
+}
+.info_presta {
+  margin: -315px 0px;
 }
 
-li {
-  list-style: none;
-}
 .title_presta {
   font-size: 25px;
   margin-bottom: 45px;
@@ -296,12 +298,12 @@ li {
   margin: 0 30%;
   color: white;
 }
-.title_precision{
+.title_precision {
   font-size: 14px;
   margin: 15px 0px;
 }
 .container_precision {
-  margin: 50px 58px -87px 593px;
+  margin: 880px 281px 0px 180px;
   position: absolute;
   border: 1px green solid;
   padding: 20px;
@@ -309,10 +311,10 @@ li {
   background-color: whitesmoke;
 }
 
-.footer-presta{
-  margin: 100px 0px;
-  padding: 2px; 
-}
+// .footer-presta{
+//   margin: 100px 0px;
+//   padding: 2px;
+// }
 
 .footer {
   margin: -280px 0px;
@@ -323,26 +325,25 @@ li {
   margin: 80px 50px;
 }
 
-.img_contact{
+.img_contact {
   width: 32%;
-margin: -100px 425px;
-height: 500px;
-object-fit: cover;
+  margin: -100px 425px;
+  height: 500px;
+  object-fit: cover;
 }
 
-.mail_contact{
+.mail_contact {
   margin: 18px 0;
 }
 
-.mobile{
+.mobile {
   margin: -50px 52px 0px;
 }
-.google_form{
+.google_form {
   margin: 50px 175px;
-  
 }
 /**********************FOOTER****************************/
-.copyr{
+.copyr {
   color: rgb(6, 6, 6);
   font-size: 15px;
   display: flex;
@@ -356,15 +357,14 @@ object-fit: cover;
 }
 .reseau_socio {
   margin: 25px 585px;
-  
 }
 
 .mail {
   color: rgb(0, 0, 0);
   margin: -20px 80px 1px;
-    position: absolute;
+  position: absolute;
 }
-.fa-brands{
+.fa-brands {
   display: contents;
 }
 .insta {
@@ -376,45 +376,44 @@ object-fit: cover;
   color: #1c17bb;
 }
 
-
 /****************************************Responsive*************/
 @media screen and (max-width: 770px) {
   body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
   }
 
-  .bg_head{
+  .bg_head {
     //width: 107%;
     height: auto;
     margin-top: 70px;
   }
-  .logo{
+  .logo {
     margin: 295px 25%;
   }
   .activity {
-    color: rgb(255, 254, 254);
-    font-size: 12px;
-    margin: -40px 56px 20px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin: 0px 35px 20px;
   }
   .container_nav_bar {
-    margin: 25% ;
+    margin: 25%;
     justify-content: center;
   }
   .title_site {
     font-size: 20px;
     margin-top: 25px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   .picture_me {
-     width: 95%;
-  margin: 5px 2%;
-}
-  
+    width: 95%;
+    margin: 5px 2%;
+  }
+
   .img_head {
-    font-family: 'Fleur De Leah', cursive;
-    margin: -280px 10px;
+    font-family: "Fleur De Leah", cursive;
+    margin: -280px 30px;
     border-radius: 0;
-    color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
     font-size: 55px;
   }
 
@@ -424,15 +423,14 @@ object-fit: cover;
     display: block;
     margin: 0;
   }
-  .country{
+  .country {
     font-weight: 100;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 20px;
-    margin: 20px 10% ;
+    margin: 20px 10%;
   }
-  .activity_gall{
+  .activity_gall {
     margin: -44px 5%;
-    
   }
   .activity_presta {
     margin: -11px 17px;
@@ -445,15 +443,15 @@ object-fit: cover;
   }
   .nav_bar {
     font-size: 11px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
   .nav_site {
     margin: 65px 50px;
   }
-.me{
-  font-size: 18px;
-  font-weight: lighter;
-}
+  .me {
+    font-size: 18px;
+    font-weight: lighter;
+  }
   .container_about {
     font-weight: 100;
     text-align: justify;
@@ -471,9 +469,8 @@ object-fit: cover;
     margin: 0px 6px;
     width: auto;
   }
-  .reseau_socio{
-    margin: 80px 110px;
-    
+  .reseau_socio {
+    margin: 80px 150px;
   }
   .insta {
     font-size: 25px;
@@ -485,33 +482,44 @@ object-fit: cover;
     margin: 0 -45px;
     border-radius: 25px;
   }
-.mail{
-  position: absolute;
-  margin: -25px 55px;
-}
-.copyr {
-  color: white;
-  font-size: 12px;
-  display: flex;
-  /* justify-content: center; */
-  margin: -54px 20px;
-}
+  .mail {
+    position: absolute;
+    margin: -25px 55px;
+  }
+  .copyr {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    display: flex;
+    /* justify-content: center; */
+    margin: -54px 20px;
+  }
   /************************************Prestation*****************/
-.redflower {
-  height: 200px;
-  display: none;
-}
+  .redflower {
+    height: 200px;
+    width: auto;
+  }
 
-.prestation{
-  display: block;
-  margin: 215px 0px;
-}
+  .prestation {
+    margin: 0px 0px 0px 45px;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 60px;
+    grid-row-gap: 290px;
+  }
   .title_formule {
     position: absolute;
-    margin: -75px 0px;
+    margin: -75px 20px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+  }
+  .title_formule_1 {
+    font-family: "Cinzel", serif;
+    font-size: 15px;
+    text-decoration-line: underline;
+  }
+  .formule_precis{
     font-size: 12px;
-    color: white;
-  
   }
   .title_presta {
     font-size: 20px;
@@ -526,33 +534,33 @@ object-fit: cover;
     margin: 100px 0px;
   }
   .container_precision {
-    margin: -100px 0px 0px 0px;;
+    margin: 980px 10px 0px -35px;
     //width: 85%;
-    
   }
-
-  
+.info_precis{
+  font-size: 12px;
+}
   .container_contact {
     display: flex;
     justify-content: center;
     margin: 25px 0px;
   }
-  .contact{
+  .contact {
     margin: -55px -10px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
   .mail {
     margin: -55px 0px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
-  .number{
-    color: white;
+  .number {
+    color: rgb(0, 0, 0);
     margin: -25px -25px;
     font-size: 14px;
   }
-  .img_contact{
+  .img_contact {
     margin: 47px -257px;
     width: 280px;
   }
@@ -560,23 +568,23 @@ object-fit: cover;
     margin: 320px 49px;
   }
   .footer-presta {
-    margin: 350px 0px 1px;
+    margin: 120px 0px 1px;
     padding: 2px;
   }
 
-  .footer_presta{
+  .footer_presta {
     margin: 0px;
   }
-  .mobile{
-    color: white;
+  .mobile {
+    color: rgb(0, 0, 0);
   }
   /*********************************Gallerie*********************/
-  
+
   .motivation {
     margin: 14px 25px;
-    color: white;
-font-size: 12px;
-}
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+  }
   .nav_site_gall {
     display: block;
     margin: 50px 60px;
@@ -595,7 +603,7 @@ font-size: 12px;
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 3px;
     grid-row-gap: 3px;
-    } 
+  }
   .img_gall_head {
     height: 150px;
     border-radius: 0;
@@ -603,13 +611,13 @@ font-size: 12px;
   .title_page {
     display: none;
   }
-  
-  .invit_contact{
-    color: white;
+
+  .invit_contact {
+    color: rgb(0, 0, 0);
     font-size: 12px;
   }
 
-  iframe{
+  iframe {
     width: 100%;
   }
   .question {
@@ -617,21 +625,20 @@ font-size: 12px;
   }
   .faq {
     margin: 70px 95px;
-    color: white;
-}
+    color: rgb(0, 0, 0);
+  }
 
-.question_bio {
-  color: white;
-  font-size: 14px;
-}
+  .question_bio {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+  }
 
-.reponse_bio {
-  color: white;
-  font-size: 14px;
+  .reponse_bio {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+  }
+  .google_form {
+    margin: 0px;
+  }
 }
-.google_form{
-  margin: 0px;
-}
-
- }
 /***********************************FIN RESPONSIVE*************************************/

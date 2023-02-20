@@ -38,7 +38,7 @@ a {
 
 .activity {
   color: rgb(0, 0, 0);
-  margin: -100px 400px 0;
+  margin: -110px 50px 0;
   font-size: 27px;
   font-weight: lighter;
 }
@@ -216,7 +216,7 @@ a {
 .redflower {
   -o-object-fit: contain;
      object-fit: contain;
-  width: 45%;
+  width: 90%;
   position: relative;
   margin: 50px -11px 335px;
 }
@@ -252,7 +252,7 @@ a {
 
 li {
   list-style: none;
-  color: rgb(0, 0, 0);
+  font-family: "Cormorant Garamond", serif;
 }
 
 #body_presta {
@@ -288,18 +288,29 @@ li {
 
 .title_formule {
   position: absolute;
-  margin: -15px 55px;
+  margin: 60px 50px;
   color: rgb(9, 9, 9);
   font-size: 15px;
 }
 
-.prestation {
-  display: flex;
-  margin: 190px 0px 0px 35px;
+.title_formule_1 {
+  font-family: "Cinzel", serif;
+  font-size: 25px;
+  text-decoration-line: underline;
 }
 
-li {
-  list-style: none;
+.prestation {
+  height: 1250px;
+  margin: 80px 0px 0px 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 42px;
+  grid-row-gap: 20px;
+}
+
+.info_presta {
+  margin: -315px 0px;
 }
 
 .title_presta {
@@ -324,17 +335,12 @@ li {
 }
 
 .container_precision {
-  margin: 50px 58px -87px 593px;
+  margin: 880px 281px 0px 180px;
   position: absolute;
   border: 1px green solid;
   padding: 20px;
   border-radius: 15px;
   background-color: whitesmoke;
-}
-
-.footer-presta {
-  margin: 100px 0px;
-  padding: 2px;
 }
 
 .footer {
@@ -408,7 +414,7 @@ li {
 /****************************************Responsive*************/
 @media screen and (max-width: 770px) {
   body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
   }
   .bg_head {
     height: auto;
@@ -418,9 +424,9 @@ li {
     margin: 295px 25%;
   }
   .activity {
-    color: rgb(255, 254, 254);
-    font-size: 12px;
-    margin: -40px 56px 20px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin: 0px 35px 20px;
   }
   .container_nav_bar {
     margin: 25%;
@@ -429,7 +435,7 @@ li {
   .title_site {
     font-size: 20px;
     margin-top: 25px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   .picture_me {
     width: 95%;
@@ -437,9 +443,9 @@ li {
   }
   .img_head {
     font-family: "Fleur De Leah", cursive;
-    margin: -280px 10px;
+    margin: -280px 30px;
     border-radius: 0;
-    color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
     font-size: 55px;
   }
   .container_nav {
@@ -449,7 +455,7 @@ li {
   }
   .country {
     font-weight: 100;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     margin: 20px 10%;
   }
@@ -467,7 +473,7 @@ li {
   }
   .nav_bar {
     font-size: 11px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
   .nav_site {
     margin: 65px 50px;
@@ -492,7 +498,7 @@ li {
     width: auto;
   }
   .reseau_socio {
-    margin: 80px 110px;
+    margin: 80px 150px;
   }
   .insta {
     font-size: 25px;
@@ -509,7 +515,7 @@ li {
     margin: -25px 55px;
   }
   .copyr {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 12px;
     display: flex;
     /* justify-content: center; */
@@ -518,17 +524,29 @@ li {
   /************************************Prestation*****************/
   .redflower {
     height: 200px;
-    display: none;
+    width: auto;
   }
   .prestation {
-    display: block;
-    margin: 215px 0px;
+    margin: 0px 0px 0px 45px;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 60px;
+    grid-row-gap: 290px;
   }
   .title_formule {
     position: absolute;
-    margin: -75px 0px;
+    margin: -75px 20px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+  }
+  .title_formule_1 {
+    font-family: "Cinzel", serif;
+    font-size: 15px;
+    text-decoration-line: underline;
+  }
+  .formule_precis {
     font-size: 12px;
-    color: white;
   }
   .title_presta {
     font-size: 20px;
@@ -541,7 +559,10 @@ li {
     margin: 100px 0px;
   }
   .container_precision {
-    margin: -100px 0px 0px 0px;
+    margin: 980px 10px 0px -35px;
+  }
+  .info_precis {
+    font-size: 12px;
   }
   .container_contact {
     display: flex;
@@ -550,14 +571,14 @@ li {
   }
   .contact {
     margin: -55px -10px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   .mail {
     margin: -55px 0px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   .number {
-    color: white;
+    color: rgb(0, 0, 0);
     margin: -25px -25px;
     font-size: 14px;
   }
@@ -569,19 +590,19 @@ li {
     margin: 320px 49px;
   }
   .footer-presta {
-    margin: 350px 0px 1px;
+    margin: 120px 0px 1px;
     padding: 2px;
   }
   .footer_presta {
     margin: 0px;
   }
   .mobile {
-    color: white;
+    color: rgb(0, 0, 0);
   }
   /*********************************Gallerie*********************/
   .motivation {
     margin: 14px 25px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 12px;
   }
   .nav_site_gall {
@@ -610,7 +631,7 @@ li {
     display: none;
   }
   .invit_contact {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 12px;
   }
   iframe {
@@ -621,14 +642,14 @@ li {
   }
   .faq {
     margin: 70px 95px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   .question_bio {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 14px;
   }
   .reponse_bio {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 14px;
   }
   .google_form {
