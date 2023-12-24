@@ -490,6 +490,10 @@ li {
   body {
     background-color: rgb(255, 255, 255);
   }
+  .title_index {
+    margin: -160px 69px;
+    font-size: 12px;
+  }
   .bg_head {
     height: auto;
     margin-top: 70px;
@@ -500,7 +504,7 @@ li {
   .activity {
     color: rgb(0, 0, 0);
     font-size: 15px;
-    margin: 0px 35px 20px;
+    margin: 0px 59px -100px;
   }
   .container_nav_bar {
     margin: 25%;
@@ -572,7 +576,7 @@ li {
     width: auto;
   }
   .reseau_socio {
-    margin: 80px 150px;
+    margin: 80px 50px;
   }
   .insta {
     font-size: 25px;
@@ -610,7 +614,7 @@ li {
   }
   .title_formule {
     position: absolute;
-    margin: -75px 20px;
+    margin: -6px 17px;
     font-size: 15px;
     color: rgb(0, 0, 0);
   }
@@ -706,7 +710,8 @@ li {
   }
   .invit_contact {
     color: rgb(0, 0, 0);
-    font-size: 12px;
+    font-size: 16px;
+    margin: 130px 39px;
   }
   iframe {
     width: 100%;
