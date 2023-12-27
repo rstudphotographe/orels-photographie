@@ -516,9 +516,6 @@ li {
 
 /********Responsive*************/
 @media screen and (max-width: 650px) {
-  body {
-    background-color: rgb(255, 255, 255);
-  }
   .nav_site a {
     cursor: pointer;
     position: relative;
