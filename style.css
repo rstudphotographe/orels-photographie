@@ -191,12 +191,12 @@ nav {
 
 /*****************************Gallerie********************/
 .parent {
-  margin: 10px;
+  margin: 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 3px;
-  grid-row-gap: 3px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
 }
 
 .img_head_gall {
@@ -343,7 +343,7 @@ nav {
 
 .proposition {
   margin: 120px 60px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .proposition_1 {
@@ -385,7 +385,7 @@ li {
 
 .title_formule {
   position: absolute;
-  margin: 30px 423px;
+  margin: 30px 420px;
   color: rgb(9, 9, 9);
   font-size: 20px;
 }
@@ -722,6 +722,7 @@ li {
     height: 140px;
   }
   .parent {
+    margin: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
