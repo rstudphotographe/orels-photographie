@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: darkgray;
 }
 
 a {
@@ -13,7 +12,7 @@ a {
   cursor: pointer;
   position: relative;
   padding: 10px 20px;
-  background: #e2f2be;
+  background: #e1e1e1;
   font-size: 14px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -48,6 +47,13 @@ a {
   height: 100%;
 }
 
+.img-tete {
+  width: 100%;
+  height: 496px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .bg_head {
   margin-top: 30px;
   height: 600px;
@@ -59,14 +65,12 @@ a {
 .img_head {
   font-size: 47px;
   color: rgb(0, 0, 0);
-  text-shadow: 0px 0px 17px #dbac28;
-  font-family: "Fleur De Leah", cursive;
+  font-family: "Great Vibes", cursive;
 }
 
 .title_index {
   position: absolute;
   margin: -223px 170px;
-  font-family: "Playfair Display", serif;
   font-size: 23px;
   font-weight: inherit;
 }
@@ -189,6 +193,93 @@ nav {
   margin: 145px 50px;
 }
 
+/**********************Portfolio*********************/
+.img_portfolio {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 340px;
+}
+
+/***************************************lifestyle***************************/
+.moti_portfolio {
+  padding: 50px;
+  font-size: 15px;
+}
+
+.lavie {
+  margin: 40px 0px 0px 40%;
+}
+
+.lavie1 {
+  margin-left: -30px;
+  font-family: "Sedan SC", serif;
+  font-size: 35px;
+}
+
+.lavie2 {
+  font-family: "Sedan SC", serif;
+}
+
+.img_art {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-portfolio {
+  margin: 13px 0 0 225px;
+  color: black;
+  font-size: 17px;
+}
+
+/******************Caroussel*********************/
+.carousel {
+  height: 90vh;
+  width: 90vw;
+  position: relative;
+  margin: 0px 0px 70px 70px;
+}
+
+.carousel button {
+  position: absolute;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 2.6rem;
+  z-index: 2;
+  cursor: pointer;
+  color: #e1e1e1;
+  top: 50%;
+  transform: translate(-50%);
+}
+
+#prev {
+  left: 20px;
+}
+
+#next {
+  right: -10px;
+}
+
+.slide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.7s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.slide img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 /*****************************Gallerie********************/
 .parent {
   margin: 30px;
@@ -284,6 +375,7 @@ nav {
   color: white;
   cursor: pointer;
   z-index: 100;
+  font-size: 30px;
 }
 
 .container .popup-image img {
@@ -353,7 +445,6 @@ nav {
 
 li {
   list-style: none;
-  font-family: "Cormorant Garamond", serif;
   margin: 5px 0px;
 }
 
@@ -391,7 +482,6 @@ li {
 }
 
 .title_formule_1 {
-  font-family: "Cinzel", serif;
   font-size: 25px;
   text-decoration-line: underline;
   margin: 10px 0px;
@@ -646,7 +736,6 @@ li {
     color: rgb(0, 0, 0);
   }
   .title_formule_1 {
-    font-family: "Cinzel", serif;
     font-size: 15px;
     text-decoration-line: underline;
   }
@@ -761,6 +850,31 @@ li {
   }
   .google_form {
     margin: 0px;
+  }
+  .carousel {
+    margin: 30px 0px 70px 20px;
+    height: 349px;
+  }
+  .lavie {
+    margin: 40px 0px 0px 15%;
+  }
+  .lavie1 {
+    font-size: 20px;
+  }
+  .lavie2 {
+    font-size: 15px;
+  }
+  .img-tete {
+    height: 200px;
+  }
+  .img_portfolio {
+    padding: 69px 0px 0px 3px;
+  }
+  .text-portfolio {
+    margin: 13px 0 0 150px;
+  }
+  .img_art {
+    display: block;
   }
 }
 /***********************************FIN RESPONSIVE*************************************//*# sourceMappingURL=style.css.map */
