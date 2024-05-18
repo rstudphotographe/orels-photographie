@@ -628,12 +628,12 @@ li {
     margin-top: 70px;
   }
   .logo {
-    margin: 295px 0;
+    margin: 300px 20px;
   }
   .activity {
     color: rgb(0, 0, 0);
     font-size: 15px;
-    margin: 0px 59px -100px;
+    margin: 0px 50px -100px;
   }
   .title_site {
     font-size: 20px;
@@ -685,6 +685,8 @@ li {
   .about {
     padding: 5px;
     text-align: left;
+    font-size: 12px;
+    margin: 15px -30px;
   }
   .presentation {
     display: block;
@@ -717,17 +719,32 @@ li {
     margin: 135px 20px;
   }
   /************************************Prestation*****************/
+  .moti_portfolio {
+    text-align: justify;
+    padding: 20px;
+    font-size: 12px;
+  }
   .redflower {
     height: 200px;
     width: auto;
   }
+  .proposition {
+    margin: 120px 10px;
+    text-align: justify;
+    font-size: 10px;
+  }
+  .proposition_1 {
+    margin: 30px 9px;
+    font-size: 11px;
+  }
   .prestation {
-    margin: 0px 0px 0px 45px;
-    display: grid;
-    grid-template-columns: repeat(2, 0fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 60px;
-    grid-row-gap: 290px;
+    padding: 360px 0px;
+    margin: 20px;
+    display: block;
+  }
+  .presta_div {
+    display: flex;
+    margin: -362px 0px;
   }
   .title_formule {
     position: absolute;
@@ -753,10 +770,13 @@ li {
     margin: 100px 0px;
   }
   .container_precision {
-    margin: 980px 10px 0px -35px;
+    margin: 200px 10px 0px -10px;
   }
   .info_precis {
     font-size: 12px;
+  }
+  .info_presta {
+    margin: 40px 35px;
   }
   .container_contact {
     display: flex;
@@ -828,7 +848,8 @@ li {
   .invit_contact {
     color: rgb(0, 0, 0);
     font-size: 16px;
-    margin: 130px 39px;
+    margin: 130px 10px;
+    font-size: 12px;
   }
   iframe {
     width: 100%;

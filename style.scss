@@ -241,22 +241,22 @@ nav {
   cursor: pointer;
   color: #e1e1e1;
   top: 50%;
-  transform :translate(-50%)  ;
+  transform: translate(-50%);
 }
-#prev{
+#prev {
   left: 20px;
 }
-#next{
+#next {
   right: -10px;
 }
-.slide{
+.slide {
   position: absolute;
   height: 100%;
   width: 100%;
   opacity: 0;
   transition: 0.7s ease-in-out;
 }
-.slide.active{
+.slide.active {
   opacity: 1;
 }
 .slide img {
@@ -591,12 +591,12 @@ li {
     margin-top: 70px;
   }
   .logo {
-    margin: 295px 0;
+    margin: 300px 20px;
   }
   .activity {
     color: rgb(0, 0, 0);
     font-size: 15px;
-    margin: 0px 59px -100px;
+    margin: 0px 50px -100px;
   }
 
   .title_site {
@@ -654,6 +654,8 @@ li {
   .about {
     padding: 5px;
     text-align: left;
+    font-size: 12px;
+  margin: 15px -30px;
   }
 
   .presentation {
@@ -687,18 +689,34 @@ li {
     margin: 135px 20px;
   }
   /************************************Prestation*****************/
+  .moti_portfolio{
+    text-align: justify;
+    padding: 20px;
+  font-size: 12px;
+  }
   .redflower {
     height: 200px;
     width: auto;
   }
 
+  .proposition{
+    margin: 120px 10px;
+    text-align: justify;
+    font-size: 10px;
+  }
+  .proposition_1{
+    margin: 30px 9px;
+  font-size: 11px;
+  }
+
   .prestation {
-    margin: 0px 0px 0px 45px;
-    display: grid;
-    grid-template-columns: repeat(2, 0fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 60px;
-    grid-row-gap: 290px;
+    padding: 360px 0px;
+    margin: 20px;
+    display: block;
+  }
+  .presta_div {
+    display: flex;
+    margin: -362px 0px;
   }
   .title_formule {
     position: absolute;
@@ -726,11 +744,14 @@ li {
     margin: 100px 0px;
   }
   .container_precision {
-    margin: 980px 10px 0px -35px;
+    margin: 200px 10px 0px -10px;
     //width: 85%;
   }
   .info_precis {
     font-size: 12px;
+  }
+  .info_presta {
+    margin: 40px 35px;
   }
   .container_contact {
     display: flex;
@@ -808,7 +829,8 @@ li {
   .invit_contact {
     color: rgb(0, 0, 0);
     font-size: 16px;
-    margin: 130px 39px;
+    margin: 130px 10px;
+    font-size: 12px;
   }
 
   iframe {
@@ -834,31 +856,31 @@ li {
   .google_form {
     margin: 0px;
   }
-  .carousel{
+  .carousel {
     margin: 30px 0px 70px 20px;
     height: 349px;
   }
-  .lavie{
-  margin: 40px 0px 0px 15%;
-}
-.lavie1{
-  font-size: 20px;
-}
-.lavie2{
-  font-size: 15px;
-}
+  .lavie {
+    margin: 40px 0px 0px 15%;
+  }
+  .lavie1 {
+    font-size: 20px;
+  }
+  .lavie2 {
+    font-size: 15px;
+  }
 
-.img-tete{
-  height: 200px;
-}
-.img_portfolio{
-  padding: 69px 0px 0px 3px;
-}
-.text-portfolio{
-  margin: 13px 0 0 150px;
-}
-.img_art{
-  display: block;
-}
+  .img-tete {
+    height: 200px;
+  }
+  .img_portfolio {
+    padding: 69px 0px 0px 3px;
+  }
+  .text-portfolio {
+    margin: 13px 0 0 150px;
+  }
+  .img_art {
+    display: block;
+  }
 }
 /***********************************FIN RESPONSIVE*************************************/
