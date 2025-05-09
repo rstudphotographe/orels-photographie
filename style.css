@@ -683,6 +683,10 @@ li {
     background: #444;
   }
   /**************************************************/
+  .h1 {
+    font-size: 15px;
+    font-weight: bold;
+  }
   .nav_site {
     display: none;
   }
@@ -724,9 +728,15 @@ li {
     margin-top: 25px;
     color: rgb(0, 0, 0);
   }
+  .main_contact {
+    margin: -116px 0px;
+  }
   .picture_me {
     width: 95%;
     margin: 5px 2%;
+  }
+  .bio_me {
+    margin: 0px 0px;
   }
   .img_head {
     margin: -280px 30px;
@@ -812,7 +822,7 @@ li {
     width: auto;
   }
   .proposition {
-    margin: 120px 10px;
+    margin: -23px 10px;
     text-align: justify;
     font-size: 10px;
   }
@@ -898,7 +908,7 @@ li {
   }
   /*********************************Gallerie*********************/
   .motivation {
-    margin: 150px 10px;
+    margin: 23px 10px;
     color: rgb(0, 0, 0);
     font-size: 12px;
   }
