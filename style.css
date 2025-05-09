@@ -651,7 +651,7 @@ li {
     text-align: right;
     /* Pour que le menu hamburger soit "rangé" par défaut */
     transform: translateX(-168px);
-    padding: 10px;
+    padding: 10px 0px;
     font-size: x-large;
   }
   nav {
