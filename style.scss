@@ -14,6 +14,9 @@ h1{
 a {
   text-decoration: none;
 }
+.menu{
+visibility: hidden;
+}
 .nav_site a {
   cursor: pointer;
   position: relative;
@@ -592,7 +595,7 @@ body {
 .menu {
   margin-top: -132px;
   /* Pour que le menu reste en place quand on scroll */
-  
+  visibility: initial;
   /* Pour que le menu ne soit pas sur le texte et que ce dernier puisse être sélectionné */
   width: 0px;
 }
@@ -808,7 +811,7 @@ nav a:hover {
   }
 
   .proposition{
-    margin: -23px 10px;
+    margin: 10px 10px;
     text-align: justify;
     font-size: 10px;
   }
