@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 h1{
   
@@ -68,8 +69,8 @@ visibility: hidden;
 }
 
 .bg_head {
-  margin-top: 30px;
-  height: 600px;
+  margin-top: -30px;
+  height: 750px;
   width: 100%;
   object-fit: cover;
 }
@@ -77,7 +78,7 @@ visibility: hidden;
 .img_head {
   font-size: 47px;
   color: rgb(0, 0, 0);
-  font-family: "Great Vibes", cursive;
+
 }
 
 .title_index {
@@ -108,7 +109,7 @@ visibility: hidden;
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: bisque;
+  background-color: #d0974d;;
 }
 
 nav {
@@ -152,29 +153,26 @@ nav {
 }
 
 .bio_me {
-  margin: 140px 0px;
+  text-align: justify;
+  margin: 140px 245px;
 }
 .presentation {
   //width: 50%;
-  display: flex;
-  align-items: center;
   margin: -40px 30px 30px 730px;
   padding: 24px;
-  box-shadow: 7px 7px 0px 0px rgb(46 61 73 / 20%);
-  border-radius: 10px;
-  border: 1px solid darkgrey;
-  background-color: rgb(254, 255, 255);
-}
+  }
+  
 .picture_me {
-  width: 40%;
+  width: 30%;
   position: relative;
-  margin: -330px 70px;
+  margin: -241px 184px;
   border-radius: 5px;
 }
 
 .about {
   font-size: 15px;
   margin: 15px 15px;
+  text-align: justify;
 }
 
 .me {
@@ -190,7 +188,24 @@ nav {
   font-weight: bold;
   font-size: 20px;
 }
+.title_blog{
+  text-align: center;
+}
+.img_blog{
+  width: 100%;
+  margin-block: 50px;
+  height: 200px;
+  object-fit: contain;
+}
+.article_blog{
+  margin: 10px 150px;
+  font-size: 17px;
+}
 
+.article_presta
+{
+  text-align: center;
+}
 .faq {
   margin: 70px 475px;
 }
@@ -282,7 +297,7 @@ nav {
 .parent {
   margin: 30px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 15px;
   grid-row-gap: 15px;
@@ -361,13 +376,13 @@ nav {
 .container .popup-image span {
   position: absolute;
   top: 0;
-  right: 10px;
+  right: 95px;
   font-size: 60px;
   font-weight: bolder;
   color: white;
   cursor: pointer;
   z-index: 100;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .container .popup-image img {
@@ -426,12 +441,12 @@ nav {
 }
 
 .proposition_1 {
-  margin: 43px;
-  font-size: 15px;
+  margin: 60px;
+  font-size: 17px;
 }
 li {
   list-style: none;
-
+font-size: 17px;
   margin: 5px 0px;
 }
 
@@ -725,7 +740,7 @@ nav a:hover {
     margin: -280px 30px;
     border-radius: 0;
     color: rgb(0, 0, 0);
-    font-size: 35px;
+    font-size: 33px;
   }
 
   .country {
@@ -762,6 +777,12 @@ nav a:hover {
     margin: 10px;
   }
 
+  .article_blog{
+    font-size: 17px;
+  text-align: justify;
+  margin: 10px 30px;
+  }
+
   .about {
     padding: 5px;
     text-align: left;
@@ -777,6 +798,7 @@ nav a:hover {
   }
   .reseau_socio {
     margin: 80px 50px;
+    text-align: center;
   }
   .insta {
     font-size: 25px;
